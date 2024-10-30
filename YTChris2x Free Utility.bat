@@ -68,19 +68,19 @@ echo.    ╚██╔╝     ██║   ██║     ██╔══██║�
 echo.     ██║      ██║   ╚██████╗██║  ██║██║  ██║██║███████║███████╗██╔╝ ██╗    ██║     ██║  ██║███████╗███████╗    ╚██████╔╝   ██║   ██║███████╗██║   ██║      ██║   
 echo.     ╚═╝      ╚═╝    ╚═════╝╚═╝  ╚═╝╚═╝  ╚═╝╚═╝╚══════╝╚══════╝╚═╝  ╚═╝    ╚═╝     ╚═╝  ╚═╝╚══════╝╚══════╝     ╚═════╝    ╚═╝   ╚═╝╚══════╝╚═╝   ╚═╝      ╚═╝   
 echo.                                                                                                                                                            
-echo.┌────────────────────────────────────────┐┌────────────────────────────────┐┌───────────────────────────────┐┌────────────────────────────┐
-echo.│        Windows Tweaks                  ││     System Visual Tweaks       ││    Cpu Cooler Tweaks          ││     Restore Point          │
-echo.│────────────────────────────────────────││────────────────────────────────││───────────────────────────────││────────────────────────────│
-echo.│      [A] Apply Windows Tweaks          ││   [D] Apply Visual Tweaks      ││   [G] Apply Cpu Tweaks        ││   [J] Restore System       │
-echo.│────────────────────────────────────────││────────────────────────────────││───────────────────────────────││────────────────────────────│
-echo.│      Get The Lowest Input Delay        ││    Wireless Input Remover      ││     Debloat Windows           ││   [K]  My Discord          │
-echo.│────────────────────────────────────────││────────────────────────────────││───────────────────────────────││────────────────────────────│
-echo.│      [B] Apply Input Tweaks            ││   [E] Apply Wireless Tweaks    ││   [H] Debloat Windows         ││   [L] My Youtube           │
-echo.│────────────────────────────────────────││────────────────────────────────││───────────────────────────────││────────────────────────────│
-echo.│          Power Tweaks                  ││     Graphics Card Tweaks       ││      Clean You Slow Pc        ││ Message Me On Discord For  │
-echo.│────────────────────────────────────────││────────────────────────────────││───────────────────────────────││ Any Questions Or Anything  │
-echo.│      [C] Apply Power Tweaks            ││   [F] Apply Graphics Tweaks    ││    [I] Apply Cleaning         ││ Thank You Enjoy!!!!!!!!!!  │
-echo.└────────────────────────────────────────┘└────────────────────────────────┘└───────────────────────────────┘└────────────────────────────┘
+echo.┌────────────────────────────────────────┐┌────────────────────────────────┐┌───────────────────────────────┐┌────────────────────────────┐┌────────────────────────────┐
+echo.│        Windows Tweaks                  ││     System Visual Tweaks       ││    Cpu Cooler Tweaks          ││   Optimize Your Services   ││     Restore Point          │
+echo.│────────────────────────────────────────││────────────────────────────────││───────────────────────────────││────────────────────────────││────────────────────────────│
+echo.│      [A] Apply Windows Tweaks          ││   [D] Apply Visual Tweaks      ││   [G] Apply Cpu Tweaks        ││   [M] Apply Serivces       ││   [J] Restore System       │
+echo.│────────────────────────────────────────││────────────────────────────────││───────────────────────────────││────────────────────────────││────────────────────────────│
+echo.│      Get The Lowest Input Delay        ││    Wireless Input Remover      ││     Debloat Windows           ││    Reduce Network Ping     ││   [K]  My Discord          │
+echo.│────────────────────────────────────────││────────────────────────────────││───────────────────────────────││────────────────────────────││────────────────────────────│
+echo.│      [B] Apply Input Tweaks            ││   [E] Apply Wireless Tweaks    ││   [H] Debloat Windows         ││   [N] Apply Ping Tweaks    ││   [L] My Youtube           │
+echo.│────────────────────────────────────────││────────────────────────────────││───────────────────────────────││────────────────────────────││────────────────────────────│
+echo.│          Power Tweaks                  ││     Graphics Card Tweaks       ││      Clean Your Slow Pc       ││    Fornite Optimization    ││ Message Me On Discord For  │
+echo.│────────────────────────────────────────││────────────────────────────────││───────────────────────────────││────────────────────────────││ Any Questions Or Anything  │
+echo.│      [C] Apply Power Tweaks            ││   [F] Apply Graphics Tweaks    ││    [I] Apply Cleaning         ││   [O] Apply Fornite Tweaks ││      Thank You Enjoy       │
+echo.└────────────────────────────────────────┘└────────────────────────────────┘└───────────────────────────────┘└────────────────────────────┘└────────────────────────────┘
 echo.
 echo.
 echo.
@@ -96,8 +96,235 @@ if /i %input% == G goto Cpu Tweaks
 if /i %input% == H goto windebloat
 if /i %input% == I goto PC Cleaner
 if /i %input% == J goto Create System Restore Points
+if /i %input% == M goto Optimize Services
+if /i %input% == N goto Reduce Ping
+if /i %input% == O goto Fortnite Optimization
 if /i %input% == L Start https://www.youtube.com/@ytchris2x
 if /i %input% == K Start https://discord.gg/Bd98WrHdMk
+
+
+:Fortnite Optimization
+Reg.exe add "HKLM\Software\Policies\Microsoft\Windows\QoS\%%i" /v "Application Name" /t REG_SZ /d "%%i.exe" /f
+    Reg.exe add "HKLM\Software\Policies\Microsoft\Windows\QoS\%%i" /v "Version" /t REG_SZ /d "1.0" /f
+    Reg.exe add "HKLM\Software\Policies\Microsoft\Windows\QoS\%%i" /v "Protocol" /t REG_SZ /d "*" /f
+    Reg.exe add "HKLM\Software\Policies\Microsoft\Windows\QoS\%%i" /v "Local Port" /t REG_SZ /d "*" /f
+    Reg.exe add "HKLM\Software\Policies\Microsoft\Windows\QoS\%%i" /v "Remote IP" /t REG_SZ /d "*" /f
+    Reg.exe add "HKLM\Software\Policies\Microsoft\Windows\QoS\%%i" /v "Remote IP Prefix Length" /t REG_SZ /d "*" /f
+    Reg.exe add "HKLM\Software\Policies\Microsoft\Windows\QoS\%%i" /v "DSCP Value" /t REG_SZ /d "46" /f
+    Reg.exe add "HKLM\Software\Policies\Microsoft\Windows\QoS\%%i" /v "Throttle Rate" /t REG_SZ /d "-1" /f
+Reg.exe add "HKLM\SOFTWARE\Microsoft\Windows NT\CurrentVersion\Image File Execution Options\FortniteClient-Win64-Shipping.exe\PerfOptions" /v "CpuPriorityClass" /t REG_DWORD /d "8" /f
+Reg.exe add "HKLM\SOFTWARE\Microsoft\Windows NT\CurrentVersion\Image File Execution Options\FortniteClient-Win64-Shipping.exe\PerfOptions" /v "GpuPriorityClass" /t REG_DWORD /d "8" /f
+Reg.exe add "HKLM\SOFTWARE\Microsoft\Windows NT\CurrentVersion\Image File Execution Options\FortniteClient-Win64-Shipping.exe\PerfOptions" /v "CpuPriority" /t REG_DWORD /d "42" /f
+Reg.exe add "HKLM\SOFTWARE\Microsoft\Windows NT\CurrentVersion\Image File Execution Options\FortniteClient-Win64-Shipping.exe\PerfOptions" /v "GpuPriority" /t REG_DWORD /d "42" /f
+Reg.exe add "HKLM\SOFTWARE\Microsoft\Windows NT\CurrentVersion\Image File Execution Options\FortniteClient-Win64-Shipping.exe\PerfOptions" /v "IoPriority" /t REG_DWORD /d "8" /f Reg.exe add "HKLM\SOFTWARE\Microsoft\Windows NT\CurrentVersion\Image File Execution Options\FortniteClient-Win64-Shipping.exe\PerfOptions" /v "WatchdogSleepTimeout" /t REG_DWORD /d "300" /f
+Reg.exe add "HKLM\SOFTWARE\Microsoft\Windows NT\CurrentVersion\Image File Execution Options\FortniteClient-Win64-Shipping.exe\PerfOptions" /v "POSTTime" /t REG_DWORD /d "8323" /f
+Reg.exe add "HKLM\SOFTWARE\Microsoft\Windows NT\CurrentVersion\Image File Execution Options\FortniteClient-Win64-Shipping.exe\PerfOptions" /v "BootmgrUserInputTime" /t REG_DWORD /d "0" /f
+Reg.exe add "HKLM\SOFTWARE\Microsoft\Windows NT\CurrentVersion\Image File Execution Options\FortniteClient-Win64-Shipping.exe\PerfOptions" /v "FwPOSTTime" /t REG_DWORD /d "8323" /f
+Reg.exe add "HKLM\SOFTWARE\Microsoft\Windows NT\CurrentVersion\Image File Execution Options\FortniteClient-Win64-Shipping.exe\PerfOptions" /v "CoalescingTimerInterval" /t REG_DWORD /d "0" /f
+Reg.exe add "HKLM\SOFTWARE\Microsoft\Windows NT\CurrentVersion\Image File Execution Options\FortniteClient-Win64-Shipping.exe\PerfOptions" /v "GpuSpeed" /t REG_DWORD /d "256" /f
+Reg.exe add "HKLM\SOFTWARE\Microsoft\Windows NT\CurrentVersion\Image File Execution Options\FortniteClient-Win64-Shipping.exe\PerfOptions" /ve /t REG_SZ /d "True" /f
+Reg.exe add "HKLM\SOFTWARE\Microsoft\Windows NT\CurrentVersion\Image File Execution Options\FortniteClient-Win64-Shipping.exe\PerfOptions" /v "CpuCoresAlways" /t REG_DWORD /d "18" /f
+Reg.exe add "HKLM\SOFTWARE\Microsoft\Windows NT\CurrentVersion\Image File Execution Options\FortniteClient-Win64-Shipping.exe\PerfOptions" /v "CpuUtilization" /t REG_DWORD /d "256" /f
+Reg.exe add "HKLM\SOFTWARE\Microsoft\Windows NT\CurrentVersion\Image File Execution Options\FortniteClient-Win64-Shipping.exe\PerfOptions" /v "LatencyPerformance" /t REG_DWORD /d "256" /f
+Reg.exe add "HKLM\SOFTWARE\Microsoft\Windows NT\CurrentVersion\Image File Execution Options\FortniteClient-Win64-Shipping.exe\PerfOptions" /v "GpuPerformance" /t REG_DWORD /d "256" /f
+Reg.exe add "HKLM\SOFTWARE\Microsoft\Windows NT\CurrentVersion\Image File Execution Options\FortniteClient-Win64-Shipping.exe\PerfOptions" /v "RenderingSpread" /t REG_DWORD /d "0" /f
+Reg.exe add "HKLM\SOFTWARE\Microsoft\Windows NT\CurrentVersion\Image File Execution Options\FortniteClient-Win64-Shipping.exe\PerfOptions" /v "RenderingPerformance" /t REG_DWORD /d "256" /f
+Reg.exe add "HKLM\SOFTWARE\Microsoft\Windows NT\CurrentVersion\Image File Execution Options\FortniteClient-Win64-Shipping.exe\PerfOptions" /v "LatencySpread" /t REG_DWORD /d "0" /f
+Reg.exe add "HKLM\SOFTWARE\Microsoft\Windows NT\CurrentVersion\Image File Execution Options\FortniteClient-Win64-Shipping.exe\PerfOptions" /v "RenderingPriority" /t REG_DWORD /d "8" /f
+Reg.exe add "HKLM\SOFTWARE\Microsoft\Windows NT\CurrentVersion\Image File Execution Options\FortniteClient-Win64-Shipping.exe\PerfOptions" /v "LatencyPriority" /t REG_DWORD /d "8" /f
+Reg.exe add "HKLM\SOFTWARE\Microsoft\Windows NT\CurrentVersion\Image File Execution Options\FortniteClient-Win64-Shipping.exe\PerfOptions" /v "CpuSpread" /t REG_DWORD /d "0" /f
+Reg.exe add "HKLM\SOFTWARE\Microsoft\Windows NT\CurrentVersion\Image File Execution Options\FortniteClient-Win64-Shipping.exe\PerfOptions" /v "SmoothBrightnessDefaultEnable" /t REG_DWORD /d "0" /f
+Reg.exe add "HKLM\SOFTWARE\Microsoft\Windows NT\CurrentVersion\Image File Execution Options\FortniteClient-Win64-Shipping.exe\PerfOptions" /v "SmoothBrightnessDefaultDisable" /t REG_DWORD /d "1" /f
+Reg.exe add "HKLM\SOFTWARE\Microsoft\Windows NT\CurrentVersion\Image File Execution Options\FortniteClient-Win64-Shipping.exe\PerfOptions" /v "EnableRenderingSlowDown" /t REG_DWORD /d "0" /f
+Reg.exe add "HKLM\SOFTWARE\Microsoft\Windows NT\CurrentVersion\Image File Execution Options\FortniteClient-Win64-Shipping.exe\PerfOptions" /v "EnableRenderingCache" /t REG_DWORD /d "0" /f
+Reg.exe add "HKLM\SOFTWARE\Microsoft\Windows NT\CurrentVersion\Image File Execution Options\FortniteClient-Win64-Shipping.exe\PerfOptions" /v "EnableRenderingPowerSlowDown" /t REG_DWORD /d "0" /f
+Reg.exe add "HKLM\SOFTWARE\Microsoft\Windows NT\CurrentVersion\Image File Execution Options\FortniteClient-Win64-Shipping.exe\PerfOptions" /v "EnablePowerSlowDown" /t REG_DWORD /d "0" /f
+Reg.exe add "HKLM\SOFTWARE\Microsoft\Windows NT\CurrentVersion\Image File Execution Options\FortniteClient-Win64-Shipping.exe\PerfOptions" /v "EnablePowerControlSlowDown" /t REG_DWORD /d "0" /f
+Reg.exe add "HKLM\SOFTWARE\Microsoft\Windows NT\CurrentVersion\Image File Execution Options\FortniteClient-Win64-Shipping.exe\PerfOptions" /v "DisableRenderingContextPreemption" /t REG_DWORD /d "1" /f
+Reg.exe add "HKLM\SOFTWARE\Microsoft\Windows NT\CurrentVersion\Image File Execution Options\FortniteClient-Win64-Shipping.exe\PerfOptions" /v "DisableRenderingPreemption" /t REG_DWORD /d "1" /f
+Reg.exe add "HKLM\SOFTWARE\Microsoft\Windows NT\CurrentVersion\Image File Execution Options\FortniteClient-Win64-Shipping.exe\PerfOptions" /v "DisableFGBoostDecay" /t REG_DWORD /d "1" /f
+Reg.exe add "HKLM\SOFTWARE\Microsoft\Windows NT\CurrentVersion\Image File Execution Options\FortniteClient-Win64-Shipping.exe\PerfOptions" /v "IsLowPriority" /t REG_DWORD /d "0" /f
+Reg.exe add "HKLM\SOFTWARE\Microsoft\Windows NT\CurrentVersion\Image File Execution Options\FortniteClient-Win64-Shipping.exe\PerfOptions" /v "IsRenderingLowPriority" /t REG_DWORD /d "0" /f
+Reg.exe add "HKLM\SOFTWARE\Microsoft\Windows NT\CurrentVersion\Image File Execution Options\FortniteClient-Win64-Shipping.exe\PerfOptions" /v "RenderingBasePriority" /t REG_DWORD /d "130" /f
+Reg.exe add "HKLM\SOFTWARE\Microsoft\Windows NT\CurrentVersion\Image File Execution Options\FortniteClient-Win64-Shipping.exe\PerfOptions" /v "RenderingOverTargetPriority" /t REG_DWORD /d "80" /f
+Reg.exe add "HKLM\SOFTWARE\Microsoft\Windows NT\CurrentVersion\Image File Execution Options\FortniteClient-Win64-Shipping.exe\PerfOptions" /v "RenderThrottlingOff" /t REG_DWORD /d "1" /f
+Reg.exe add "HKLM\SOFTWARE\Microsoft\Windows NT\CurrentVersion\Image File Execution Options\FortniteClient-Win64-Shipping.exe\PerfOptions" /v "EnableMidRenderingPreemption" /t REG_DWORD /d "0" /f
+Reg.exe add "HKLM\SOFTWARE\Microsoft\Windows NT\CurrentVersion\Image File Execution Options\FortniteClient-Win64-Shipping.exe\PerfOptions" /v "TVSupportEnabled" /t REG_DWORD /d "0" /f
+Reg.exe add "HKLM\SOFTWARE\Microsoft\Windows NT\CurrentVersion\Image File Execution Options\FortniteClient-Win64-Shipping.exe\PerfOptions" /v "GpuThrottleRate" /t REG_DWORD /d "65536" /f
+Reg.exe add "HKLM\SOFTWARE\Microsoft\Windows NT\CurrentVersion\Image File Execution Options\FortniteClient-Win64-Shipping.exe\PerfOptions" /v "SwapEffectUpgradeCache" /t REG_DWORD /d "1" /f
+Reg.exe add "HKLM\SOFTWARE\Microsoft\Windows NT\CurrentVersion\Image File Execution Options\FortniteClient-Win64-Shipping.exe\PerfOptions" /v "CpuPriorityClass" /t REG_DWORD /d "3" /f
+Reg.exe add "HKLM\SOFTWARE\Microsoft\Windows NT\CurrentVersion\Image File Execution Options\FortniteClient-Win64-Shipping.exe\PerfOptions" /v "IoPriority" /t REG_DWORD /d "3" /f
+Reg.exe add "HKLM\SOFTWARE\Microsoft\Windows NT\CurrentVersion\Image File Execution Options\FortniteClient-Win64-Shipping.exe" /v "UseLargePages" /t REG_DWORD /d "1" /f
+pause
+cls
+goto menu
+
+
+:Reduce Ping
+Reg.exe add "HKLM\SYSTEM\CurrentControlSet\Services\Tcpip\Parameters" /v "EnableICMPRedirect" /t REG_DWORD /d "1" /f
+Reg.exe add "HKLM\SYSTEM\CurrentControlSet\Services\Tcpip\Parameters" /v "EnablePMTUDiscovery" /t REG_DWORD /d "1" /f
+Reg.exe add "HKLM\SYSTEM\CurrentControlSet\Services\Tcpip\Parameters" /v "Tcp1323Opts" /t REG_DWORD /d "0" /f
+Reg.exe add "HKLM\SYSTEM\CurrentControlSet\Services\Tcpip\Parameters" /v "TcpMaxDupAcks" /t REG_DWORD /d "2" /f
+Reg.exe add "HKLM\SYSTEM\CurrentControlSet\Services\Tcpip\Parameters" /v "TcpTimedWaitDelay" /t REG_DWORD /d "32" /f
+Reg.exe add "HKLM\SYSTEM\CurrentControlSet\Services\Tcpip\Parameters" /v "GlobalMaxTcpWindowSize" /t REG_DWORD /d "8760" /f
+Reg.exe add "HKLM\SYSTEM\CurrentControlSet\Services\Tcpip\Parameters" /v "TcpWindowSize" /t REG_DWORD /d "8760" /f
+Reg.exe add "HKLM\SYSTEM\CurrentControlSet\Services\Tcpip\Parameters" /v "MaxConnectionsPerServer" /t REG_DWORD /d "0" /f
+Reg.exe add "HKLM\SYSTEM\CurrentControlSet\Services\Tcpip\Parameters" /v "MaxUserPort" /t REG_DWORD /d "65534" /f
+Reg.exe add "HKLM\SYSTEM\CurrentControlSet\Services\Tcpip\Parameters" /v "SackOpts" /t REG_DWORD /d "0" /f
+Reg.exe add "HKLM\SYSTEM\CurrentControlSet\Services\Tcpip\Parameters" /v "DefaultTTL" /t REG_DWORD /d "64" /f
+Reg.exe add "%%n" /v "AutoPowerSaveModeEnabled" /t REG_SZ /d "0" /f
+Reg.exe add "%%n" /v "AutoDisableGigabit" /t REG_SZ /d "0" /f
+Reg.exe add "%%n" /v "AdvancedEEE" /t REG_SZ /d "0" /f
+Reg.exe add "%%n" /v "DisableDelayedPowerUp" /t REG_SZ /d "2" /f
+Reg.exe add "%%n" /v "*EEE" /t REG_SZ /d "0" /f
+Reg.exe add "%%n" /v "EEE" /t REG_SZ /d "0" /f
+Reg.exe add "%%n" /v "EnablePME" /t REG_SZ /d "0" /f
+Reg.exe add "%%n" /v "EEELinkAdvertisement" /t REG_SZ /d "0" /f
+Reg.exe add "%%n" /v "EnableGreenEthernet" /t REG_SZ /d "0" /f
+Reg.exe add "%%n" /v "EnableSavePowerNow" /t REG_SZ /d "0" /f
+Reg.exe add "%%n" /v "EnablePowerManagement" /t REG_SZ /d "0" /f
+Reg.exe add "%%n" /v "EnableDynamicPowerGating" /t REG_SZ /d "0" /f
+Reg.exe add "%%n" /v "EnableConnectedPowerGating" /t REG_SZ /d "0" /f
+Reg.exe add "%%n" /v "EnableWakeOnLan" /t REG_SZ /d "0" /f
+Reg.exe add "%%n" /v "GigaLite" /t REG_SZ /d "0" /f
+Reg.exe add "%%n" /v "NicAutoPowerSaver" /t REG_SZ /d "2" /f
+Reg.exe add "%%n" /v "PowerDownPll" /t REG_SZ /d "0" /f
+Reg.exe add "%%n" /v "PowerSavingMode" /t REG_SZ /d "0" /f
+Reg.exe add "%%n" /v "ReduceSpeedOnPowerDown" /t REG_SZ /d "0" /f
+Reg.exe add "%%n" /v "S5NicKeepOverrideMacAddrV2" /t REG_SZ /d "0" /f
+Reg.exe add "%%n" /v "S5WakeOnLan" /t REG_SZ /d "0" /f
+Reg.exe add "%%n" /v "ULPMode" /t REG_SZ /d "0" /f
+Reg.exe add "%%n" /v "WakeOnDisconnect" /t REG_SZ /d "0" /f
+Reg.exe add "%%n" /v "*WakeOnMagicPacket" /t REG_SZ /d "0" /f
+Reg.exe add "%%n" /v "*WakeOnPattern" /t REG_SZ /d "0" /f
+Reg.exe add "%%n" /v "AutoDisableGigabit" /t REG_SZ /d "0" /f 
+Reg.exe add "%%n" /v "AdvancedEEE" /t REG_SZ /d "0" /f 
+Reg.exe add "%%n" /v "GigaLite" /t REG_SZ /d "0" /f 
+Reg.exe add "%%n" /v "NicAutoPowerSaver" /t REG_SZ /d "2" /f 
+Reg.exe add "%%n" /v "PowerDownPll" /t REG_SZ /d "0" /f 
+Reg.exe add "%%n" /v "PowerSavingMode" /t REG_SZ /d "0" /f 
+Reg.exe add "%%n" /v "ReduceSpeedOnPowerDown" /t REG_SZ /d "0" /f 
+Reg.exe add "%%n" /v "S5NicKeepOverrideMacAddrV2" /t REG_SZ /d "0" /f 
+Reg.exe add "%%n" /v "S5WakeOnLan" /t REG_SZ /d "0" /f 
+Reg.exe add "%%n" /v "ULPMode" /t REG_SZ /d "0" /f 
+Reg.exe add "%%n" /v "WakeOnDisconnect" /t REG_SZ /d "0" /f 
+Reg.exe add "%%n" /v "*WakeOnMagicPacket" /t REG_SZ /d "0" /f 
+Reg.exe add "%%n" /v "*WakeOnPattern" /t REG_SZ /d "0" /f 
+Reg.exe add "%%n" /v "WakeOnLink" /t REG_SZ /d "0" /f 
+Reg.exe add "%%n" /v "WolShutdownLinkSpeed" /t REG_SZ /d "2" /f 
+Reg.exe add "%%n" /v "JumboPacket" /t REG_SZ /d "1514" /f 
+Reg.exe add "%%n" /v "TransmitBuffers" /t REG_SZ /d "4096" /f 
+Reg.exe add "%%n" /v "ReceiveBuffers" /t REG_SZ /d "512" /f 
+Reg.exe add "%%n" /v "IPChecksumOffloadIPv4" /t REG_SZ /d "0" /f 
+Reg.exe add "%%n" /v "LsoV1IPv4" /t REG_SZ /d "0" /f  
+Reg.exe add "%%n" /v "LsoV2IPv4" /t REG_SZ /d "0" /f 
+Reg.exe add "%%n" /v "LsoV2IPv6" /t REG_SZ /d "0" /f 
+Reg.exe add "%%n" /v "PMARPOffload" /t REG_SZ /d "0" /f 
+Reg.exe add "%%n" /v "PMNSOffload" /t REG_SZ /d "0" /f 
+Reg.exe add "%%n" /v "TCPChecksumOffloadIPv4" /t REG_SZ /d "0" /f 
+Reg.exe add "%%n" /v "TCPChecksumOffloadIPv6" /t REG_SZ /d "0" /f 
+Reg.exe add "%%n" /v "UDPChecksumOffloadIPv6" /t REG_SZ /d "0" /f 
+Reg.exe add "%%n" /v "UDPChecksumOffloadIPv4" /t REG_SZ /d "0" /f 
+Reg.exe add "%%n" /v "RSS" /t REG_SZ /d "1" /f 
+Reg.exe add "%%n" /v "*NumRssQueues" /t REG_SZ /d "2" /f 
+Reg.exe add "%%n" /v "RSSProfile" /t REG_SZ /d "3" /f 
+Reg.exe add "HKLM\System\CurrentControlSet\Control\Nsi\{eb004a03-9b1a-11d4-9123-0050047759bc}\0" /v "0200" /t REG_BINARY /d "0000000000000000000000000000000000000000000000000000000002000000000000000000000000000000000000000000ff000000000000000000000000000000000000000000ff000000000000000000000000000000" /f
+Reg.exe add "HKLM\System\CurrentControlSet\Control\Nsi\{eb004a03-9b1a-11d4-9123-0050047759bc}\0" /v "1700" /t REG_BINARY /d "0000000000000000000000000000000000000000000000000000000002000000000000000000000000000000000000000000ff000000000000000000000000000000000000000000ff000000000000000000000000000000" /f
+Reg.exe add "HKLM\SYSTEM\CurrentControlSet\Services\Tcpip\Parameters\Winsock" /v "MinSockAddrLength" /t REG_DWORD /d "16" /f
+Reg.exe add "HKLM\SYSTEM\CurrentControlSet\Services\Tcpip\Parameters\Winsock" /v "MaxSockAddrLength" /t REG_DWORD /d "16" /f
+Reg.exe add "HKLM\SYSTEM\CurrentControlSet\Services\Tcpip\Parameters" /v "TcpTimedWaitDelay" /t REG_DWORD /d "32" /f
+Reg.exe add "HKLM\SYSTEM\CurrentControlSet\Services\Tcpip\Parameters" /v "GlobalMaxTcpWindowSize" /t REG_DWORD /d "8760" /f
+Reg.exe add "HKLM\SYSTEM\CurrentControlSet\Services\Tcpip\Parameters" /v "TcpWindowSize" /t REG_DWORD /d "8760" /f
+Reg.exe add "HKLM\SYSTEM\CurrentControlSet\Services\Tcpip\Parameters" /v "MaxConnectionsPerServer" /t REG_DWORD /d "0" /f
+Reg.exe add "HKLM\SYSTEM\CurrentControlSet\Services\Tcpip\Parameters" /v "MaxUserPort" /t REG_DWORD /d "65534" /f
+Reg.exe add "HKLM\SYSTEM\CurrentControlSet\Services\Tcpip\Parameters" /v "SackOpts" /t REG_DWORD /d "0" /f
+Reg.exe add "HKLM\SYSTEM\CurrentControlSet\Services\Tcpip\Parameters" /v "DefaultTTL" /t REG_DWORD /d "64" /f
+Reg.exe add "HKLM\SYSTEM\CurrentControlSet\Services\Tcpip\Parameters" /v "DelayedAckFrequency" /t REG_DWORD /d "1" /f
+Reg.exe add "HKLM\SYSTEM\CurrentControlSet\Services\Tcpip\Parameters" /v "DelayedAckTicks" /t REG_DWORD /d "1" /f
+Reg.exe add "HKLM\SYSTEM\CurrentControlSet\Services\Tcpip\Parameters" /v "CongestionAlgorithm" /t REG_DWORD /d "1" /f
+Reg.exe add "HKLM\SYSTEM\CurrentControlSet\Services\Tcpip\Parameters" /v "MultihopSets" /t REG_DWORD /d "15" /f
+Reg.exe add "HKLM\SYSTEM\CurrentControlSet\Services\Tcpip\Parameters" /v "FastCopyReceiveThreshold" /t REG_DWORD /d "16384" /f
+Reg.exe add "HKLM\SYSTEM\CurrentControlSet\Services\Tcpip\Parameters" /v "FastSendDatagramThreshold" /t REG_DWORD /d "16384" /f
+Reg.exe add "HKLM\SYSTEM\CurrentControlSet\Services\Tcpip\Parameters\Interfaces" /v "TCPDelAckTicks" /t REG_DWORD /d "1" /f
+Reg.exe add "HKLM\SYSTEM\CurrentControlSet\Services\Tcpip\Parameters" /v "TCPDelAckTicks" /t REG_DWORD /d "1" /f
+Reg.exe add "HKLM\SYSTEM\CurrentControlSet\Services\Tcpip\Parameters" /v "TCPNoDelay" /t REG_DWORD /d "1" /f
+Reg.exe add "HKLM\SYSTEM\CurrentControlSet\Services\Tcpip\Parameters\Interfaces" /v "TCPNoDelay" /t REG_DWORD /d "1" /f
+Reg.exe add "HKLM\SOFTWARE\Microsoft\MSMQ\Parameters" /v "TCPNoDelay" /t REG_DWORD /d "1" /f
+Reg.exe add "HKLM\SYSTEM\CurrentControlSet\Services\Tcpip\Parameters" /v "TcpAckFrequency" /t REG_DWORD /d "1" /f
+Reg.exe add "HKLM\SYSTEM\CurrentControlSet\Services\Tcpip\Parameters\Interfaces" /v "TcpAckFrequency" /t REG_DWORD /d "1" /f
+Reg.exe add "HKLM\SYSTEM\CurrentControlSet\Services\Tcpip\ServiceProvider" /v "LocalPriority" /t REG_DWORD /d "4" /f
+Reg.exe add "HKLM\SYSTEM\CurrentControlSet\Services\Tcpip\ServiceProvider" /v "HostsPriority" /t REG_DWORD /d "5" /f
+Reg.exe add "HKLM\SYSTEM\CurrentControlSet\Services\Tcpip\ServiceProvider" /v "DnsPriority" /t REG_DWORD /d "6" /f
+Reg.exe add "HKLM\SYSTEM\CurrentControlSet\Services\Tcpip\ServiceProvider" /v "NetbtPriority" /t REG_DWORD /d "7" /f
+Reg.exe add "HKLM\SYSTEM\CurrentControlSet\Services\Tcpip\Parameters\Interfaces" /v "DisableTaskOffload" /t REG_DWORD /d "0" /f
+Reg.exe add "HKLM\SYSTEM\CurrentControlSet\Services\Tcpip\Parameters" /v "DisableTaskOffload" /t REG_DWORD /d "0" /f
+Reg.exe add "HKLM\SYSTEM\CurrentControlSet\services\LanmanServer\Parameters" /v "autodisconnect" /t REG_DWORD /d "4294967295" /f 
+Reg.exe add "HKLM\SYSTEM\CurrentControlSet\services\LanmanServer\Parameters" /v "Size" /t REG_DWORD /d "3" /f 
+Reg.exe add "HKLM\SYSTEM\CurrentControlSet\services\LanmanServer\Parameters" /v "EnableOplocks" /t REG_DWORD /d "0" /f 
+Reg.exe add "HKLM\SYSTEM\CurrentControlSet\services\LanmanServer\Parameters" /v "IRPStackSize" /t REG_DWORD /d "20" /f 
+Reg.exe add "HKLM\SYSTEM\CurrentControlSet\services\LanmanServer\Parameters" /v "SharingViolationDelay" /t REG_DWORD /d "0" /f 
+Reg.exe add "HKLM\SYSTEM\CurrentControlSet\services\LanmanServer\Parameters" /v "SharingViolationRetries" /t REG_DWORD /d "0" /f 
+Reg.exe ADD "HKEY_LOCAL_MACHINE\SYSTEM\ControlSet001\Enum\%%n\Device Parameters\Interrupt Management\Affinity Policy" /v "AssignmentSetOverride" /t REG_BINARY /d "04" /f
+Reg.exe ADD "HKEY_LOCAL_MACHINE\SYSTEM\ControlSet001\Enum\%%n\Device Parameters\Interrupt Management\Affinity Policy" /v "DevicePolicy" /t REG_DWORD /d "4" /f
+Reg.exe ADD "HKEY_LOCAL_MACHINE\SYSTEM\ControlSet001\Enum\%%n\Device Parameters\Interrupt Management\MessageSignaledInterruptProperties" /v "MessageNumberLimit" /t REG_DWORD /d "256" /f
+pause
+cls
+goto menu
+
+
+:Optimize Services
+schtasks /Change /TN "Microsoft\Windows\Application Experience\ProgramDataUpdater" /Disable
+schtasks /Change /TN "Microsoft\Windows\Application Experience\StartupAppTask" /Disable
+schtasks /Change /TN "Microsoft\Windows\Autochk\Proxy" /Disable
+schtasks /Change /TN "Microsoft\Windows\Customer Experience Improvement Program\Consolidator" /Disable
+schtasks /Change /TN "Microsoft\Windows\Customer Experience Improvement Program\UsbCeip" /Disable
+schtasks /Change /TN "Microsoft\Windows\Defrag\ScheduledDefrag" /Disable
+schtasks /Change /TN "Microsoft\Windows\Device Information\Device" /Disable
+schtasks /Change /TN "Microsoft\Windows\Device Information\Device User" /Disable
+schtasks /Change /TN "Microsoft\Windows\DiskCleanup\SilentCleanup" /Disable
+schtasks /Change /TN "Microsoft\Windows\DiskDiagnostic\Microsoft-Windows-DiskDiagnosticDataCollector" /Disable
+schtasks /Change /TN "Microsoft\Windows\DiskFootprint\Diagnostics" /Disable
+schtasks /Change /TN "Microsoft\Windows\DiskFootprint\StorageSense" /Disable
+schtasks /Change /TN "Microsoft\Windows\DUSM\dusmtask" /Disable
+schtasks /Change /TN "Microsoft\Windows\EnterpriseMgmt\MDMMaintenenceTask" /Disable
+schtasks /Change /TN "Microsoft\Windows\Feedback\Siuf\DmClient" /Disable
+schtasks /Change /TN "Microsoft\Windows\Input\TouchpadSyncDataAvailable" /Disable
+schtasks /Change /TN "Microsoft\Windows\International\Synchronize Language Settings" /Disable
+schtasks /Change /TN "Microsoft\Windows\LanguageComponentsInstaller\Installation" /Disable
+schtasks /Change /TN "Microsoft\Windows\LanguageComponentsInstaller\ReconcileLanguageResources" /Disable
+schtasks /Change /TN "Microsoft\Windows\LanguageComponentsInstaller\Uninstallation" /Disable
+schtasks /Change /TN "Microsoft\Windows\License Manager\TempSignedLicenseExchange" /Disable
+schtasks /Change /TN "Microsoft\Windows\License Manager\TempSignedLicenseExchange" /Disable
+schtasks /Change /TN "Microsoft\Windows\Management\Provisioning\Cellular" /Disable
+schtasks /Change /TN "Microsoft\Windows\Management\Provisioning\Logon" /Disable
+schtasks /Change /TN "Microsoft\Windows\Maintenance\WinSAT" /Disable
+schtasks /Change /TN "Microsoft\Windows\Maps\MapsToastTask" /Disable
+schtasks /Change /TN "Microsoft\Windows\Maps\MapsUpdateTask" /Disable
+schtasks /Change /TN "Microsoft\Windows\Mobile Broadband Accounts\MNO Metadata Parser" /Disable
+schtasks /Change /TN "Microsoft\Windows\MUI\LPRemove" /Disable
+schtasks /Change /TN "Microsoft\Windows\NetTrace\GatherNetworkInfo" /Disable
+schtasks /Change /TN "Microsoft\Windows\PI\Sqm-Tasks" /Disable
+schtasks /Change /TN "Microsoft\Windows\Power Efficiency Diagnostics\AnalyzeSystem" /Disable
+schtasks /Change /TN "Microsoft\Windows\PushToInstall\Registration" /Disable
+schtasks /Change /TN "Microsoft\Windows\Ras\MobilityManager" /Disable
+schtasks /Change /TN "Microsoft\Windows\Feedback\Siuf\DmClientOnScenarioDownload" /Disable
+schtasks /Change /TN "Microsoft\Windows\Flighting\FeatureConfig\ReconcileFeatures" /Disable
+schtasks /Change /TN "Microsoft\Windows\Flighting\FeatureConfig\UsageDataFlushing" /Disable
+schtasks /Change /TN "Microsoft\Windows\Flighting\FeatureConfig\UsageDataReporting" /Disable
+schtasks /Change /TN "Microsoft\Windows\Flighting\OneSettings\RefreshCache" /Disable
+schtasks /Change /TN "Microsoft\Windows\Input\LocalUserSyncDataAvailable" /Disable
+schtasks /Change /TN "Microsoft\Windows\Input\MouseSyncDataAvailable" /Disable
+schtasks /Change /TN "Microsoft\Windows\Input\PenSyncDataAvailable" /Disable
+schtasks /Change /TN "Microsoft\Windows\SettingSync\NetworkStateChangeTask" /Disable
+schtasks /Change /TN "Microsoft\Windows\Setup\SetupCleanupTask" /Disable
+schtasks /Change /TN "Microsoft\Windows\Setup\SnapshotCleanupTask" /Disable
+schtasks /Change /TN "Microsoft\Windows\SpacePort\SpaceAgentTask" /Disable
+schtasks /Change /TN "Microsoft\Windows\SpacePort\SpaceManagerTask" /Disable
+schtasks /Change /TN "Microsoft\Windows\Speech\SpeechModelDownloadTask" /Disable
+pause
+cls
+goto menu
+
 
 :Create System Restore Points
 cls
