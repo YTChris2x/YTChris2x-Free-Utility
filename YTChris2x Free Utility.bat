@@ -85,7 +85,7 @@ echo.│      Get The Lowest Input Delay        ││    Wireless Input Remover
 echo.│────────────────────────────────────────││────────────────────────────────││───────────────────────────────││────────────────────────────││────────────────────────────││────────────────────────────│
 echo.│      [B] Apply Input Tweaks            ││   [E] Apply Wireless Tweaks    ││   [H] Debloat Windows         ││   [N] Apply Ping Tweaks    ││   [Q] Apply Val Tweaks     ││   [X] My Youtube           │
 echo.│────────────────────────────────────────││────────────────────────────────││───────────────────────────────││────────────────────────────││────────────────────────────││────────────────────────────│
-echo.│          Power Tweaks                  ││     Graphics Card Tweaks       ││      Clean Your Slow Pc       ││    Fornite Optimization    ││       Boost Fornite        ││ Message Me On Discord For  │
+echo.│          Power Tweaks                  ││     Graphics Card Tweaks       ││      Clean Your Slow Pc       ││    Fornite Optimization    ││         Boost CSGO         ││ Message Me On Discord For  │
 echo.│────────────────────────────────────────││────────────────────────────────││───────────────────────────────││────────────────────────────││────────────────────────────││ Any Questions Or Anything  │
 echo.│      [C] Apply Power Tweaks            ││   [F] Apply Graphics Tweaks    ││    [I] Apply Cleaning         ││   [O] Apply Fornite Tweaks ││   [J] Apply CSGO Tweaks    ││      Thank You Enjoy       │
 echo.└────────────────────────────────────────┘└────────────────────────────────┘└───────────────────────────────┘└────────────────────────────┘└────────────────────────────┘└────────────────────────────┘
