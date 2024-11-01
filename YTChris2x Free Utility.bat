@@ -52,6 +52,14 @@ echo.
 timeout /t 1 /nobreak > NUL
 goto menu
 
+
+
+
+
+
+
+
+
 :menu
 echo.
 echo.
@@ -68,19 +76,19 @@ echo.    ╚██╔╝     ██║   ██║     ██╔══██║�
 echo.     ██║      ██║   ╚██████╗██║  ██║██║  ██║██║███████║███████╗██╔╝ ██╗    ██║     ██║  ██║███████╗███████╗    ╚██████╔╝   ██║   ██║███████╗██║   ██║      ██║   
 echo.     ╚═╝      ╚═╝    ╚═════╝╚═╝  ╚═╝╚═╝  ╚═╝╚═╝╚══════╝╚══════╝╚═╝  ╚═╝    ╚═╝     ╚═╝  ╚═╝╚══════╝╚══════╝     ╚═════╝    ╚═╝   ╚═╝╚══════╝╚═╝   ╚═╝      ╚═╝   
 echo.                                                                                                                                                            
-echo.┌────────────────────────────────────────┐┌────────────────────────────────┐┌───────────────────────────────┐┌────────────────────────────┐┌────────────────────────────┐
-echo.│        Windows Tweaks                  ││     System Visual Tweaks       ││    Cpu Cooler Tweaks          ││   Optimize Your Services   ││     Restore Point          │
-echo.│────────────────────────────────────────││────────────────────────────────││───────────────────────────────││────────────────────────────││────────────────────────────│
-echo.│      [A] Apply Windows Tweaks          ││   [D] Apply Visual Tweaks      ││   [G] Apply Cpu Tweaks        ││   [M] Apply Serivces       ││   [J] Restore System       │
-echo.│────────────────────────────────────────││────────────────────────────────││───────────────────────────────││────────────────────────────││────────────────────────────│
-echo.│      Get The Lowest Input Delay        ││    Wireless Input Remover      ││     Debloat Windows           ││    Reduce Network Ping     ││   [K]  My Discord          │
-echo.│────────────────────────────────────────││────────────────────────────────││───────────────────────────────││────────────────────────────││────────────────────────────│
-echo.│      [B] Apply Input Tweaks            ││   [E] Apply Wireless Tweaks    ││   [H] Debloat Windows         ││   [N] Apply Ping Tweaks    ││   [L] My Youtube           │
-echo.│────────────────────────────────────────││────────────────────────────────││───────────────────────────────││────────────────────────────││────────────────────────────│
-echo.│          Power Tweaks                  ││     Graphics Card Tweaks       ││      Clean Your Slow Pc       ││    Fornite Optimization    ││ Message Me On Discord For  │
-echo.│────────────────────────────────────────││────────────────────────────────││───────────────────────────────││────────────────────────────││ Any Questions Or Anything  │
-echo.│      [C] Apply Power Tweaks            ││   [F] Apply Graphics Tweaks    ││    [I] Apply Cleaning         ││   [O] Apply Fornite Tweaks ││      Thank You Enjoy       │
-echo.└────────────────────────────────────────┘└────────────────────────────────┘└───────────────────────────────┘└────────────────────────────┘└────────────────────────────┘
+echo.┌────────────────────────────────────────┐┌────────────────────────────────┐┌───────────────────────────────┐┌────────────────────────────┐┌────────────────────────────┐┌────────────────────────────┐
+echo.│        Windows Tweaks                  ││     System Visual Tweaks       ││    Cpu Cooler Tweaks          ││   Optimize Your Services   ││        Boost Roblox        ││     Restore Point          │
+echo.│────────────────────────────────────────││────────────────────────────────││───────────────────────────────││────────────────────────────││────────────────────────────││────────────────────────────│
+echo.│      [A] Apply Windows Tweaks          ││   [D] Apply Visual Tweaks      ││   [G] Apply Cpu Tweaks        ││   [M] Apply Serivces       ││   [P] Apply Roblox Tweaks  ││   [9] Restore System       │
+echo.│────────────────────────────────────────││────────────────────────────────││───────────────────────────────││────────────────────────────││────────────────────────────││────────────────────────────│
+echo.│      Get The Lowest Input Delay        ││    Wireless Input Remover      ││     Debloat Windows           ││    Reduce Network Ping     ││      Boost Valorant        ││   [Z]  My Discord          │
+echo.│────────────────────────────────────────││────────────────────────────────││───────────────────────────────││────────────────────────────││────────────────────────────││────────────────────────────│
+echo.│      [B] Apply Input Tweaks            ││   [E] Apply Wireless Tweaks    ││   [H] Debloat Windows         ││   [N] Apply Ping Tweaks    ││   [Q] Apply Val Tweaks     ││   [X] My Youtube           │
+echo.│────────────────────────────────────────││────────────────────────────────││───────────────────────────────││────────────────────────────││────────────────────────────││────────────────────────────│
+echo.│          Power Tweaks                  ││     Graphics Card Tweaks       ││      Clean Your Slow Pc       ││    Fornite Optimization    ││       Boost Fornite        ││ Message Me On Discord For  │
+echo.│────────────────────────────────────────││────────────────────────────────││───────────────────────────────││────────────────────────────││────────────────────────────││ Any Questions Or Anything  │
+echo.│      [C] Apply Power Tweaks            ││   [F] Apply Graphics Tweaks    ││    [I] Apply Cleaning         ││   [O] Apply Fornite Tweaks ││   [R] Apply Fort Tweaks    ││      Thank You Enjoy       │
+echo.└────────────────────────────────────────┘└────────────────────────────────┘└───────────────────────────────┘└────────────────────────────┘└────────────────────────────┘└────────────────────────────┘
 echo.
 echo.
 echo.
@@ -95,12 +103,670 @@ if /i %input% == F goto Graphics Card Tweaks
 if /i %input% == G goto Cpu Tweaks
 if /i %input% == H goto windebloat
 if /i %input% == I goto PC Cleaner
-if /i %input% == J goto Create System Restore Points
+if /i %input% == 9 goto Create System Restore Points
 if /i %input% == M goto Optimize Services
 if /i %input% == N goto Reduce Ping
 if /i %input% == O goto Fortnite Optimization
-if /i %input% == L Start https://www.youtube.com/@ytchris2x
-if /i %input% == K Start https://discord.gg/Bd98WrHdMk
+if /i %input% == X Start https://www.youtube.com/@ytchris2x
+if /i %input% == Z Start https://discord.gg/Bd98WrHdMk
+if /i %input% == P goto Boost Roblox
+if /i %input% == Q goto Valorant Boost
+if /i %input% == R goto Fortnite Tweaks
+
+
+
+:Fortnite Tweaks
+for %%i in (FortniteClient-Win64) do (
+    Reg.exe add "HKLM\Software\Policies\Microsoft\Windows\QoS\%%i" /v "Application Name" /t REG_SZ /d "%%i.exe" /f
+    Reg.exe add "HKLM\Software\Policies\Microsoft\Windows\QoS\%%i" /v "Version" /t REG_SZ /d "1.0" /f
+    Reg.exe add "HKLM\Software\Policies\Microsoft\Windows\QoS\%%i" /v "Protocol" /t REG_SZ /d "*" /f
+    Reg.exe add "HKLM\Software\Policies\Microsoft\Windows\QoS\%%i" /v "Local Port" /t REG_SZ /d "*" /f
+    Reg.exe add "HKLM\Software\Policies\Microsoft\Windows\QoS\%%i" /v "Local IP" /t REG_SZ /d "*" /f
+    Reg.exe add "HKLM\Software\Policies\Microsoft\Windows\QoS\%%i" /v "Local IP Prefix Length" /t REG_SZ /d "*" /f
+    Reg.exe add "HKLM\Software\Policies\Microsoft\Windows\QoS\%%i" /v "Remote Port" /t REG_SZ /d "*" /f
+    Reg.exe add "HKLM\Software\Policies\Microsoft\Windows\QoS\%%i" /v "Remote IP" /t REG_SZ /d "*" /f
+    Reg.exe add "HKLM\Software\Policies\Microsoft\Windows\QoS\%%i" /v "Remote IP Prefix Length" /t REG_SZ /d "*" /f
+    Reg.exe add "HKLM\Software\Policies\Microsoft\Windows\QoS\%%i" /v "DSCP Value" /t REG_SZ /d "46" /f
+    Reg.exe add "HKLM\Software\Policies\Microsoft\Windows\QoS\%%i" /v "Throttle Rate" /t REG_SZ /d "-1" /f
+Reg.exe add "HKLM\SOFTWARE\Microsoft\Windows NT\CurrentVersion\Image File Execution Options\FortniteClient-Win64-Shipping.exe\PerfOptions" /v "CpuPriorityClass" /t REG_DWORD /d "8" /f
+Reg.exe add "HKLM\SOFTWARE\Microsoft\Windows NT\CurrentVersion\Image File Execution Options\FortniteClient-Win64-Shipping.exe\PerfOptions" /v "GpuPriorityClass" /t REG_DWORD /d "8" /f
+Reg.exe add "HKLM\SOFTWARE\Microsoft\Windows NT\CurrentVersion\Image File Execution Options\FortniteClient-Win64-Shipping.exe\PerfOptions" /v "CpuPriority" /t REG_DWORD /d "42" /f
+Reg.exe add "HKLM\SOFTWARE\Microsoft\Windows NT\CurrentVersion\Image File Execution Options\FortniteClient-Win64-Shipping.exe\PerfOptions" /v "GpuPriority" /t REG_DWORD /d "42" /f
+Reg.exe add "HKLM\SOFTWARE\Microsoft\Windows NT\CurrentVersion\Image File Execution Options\FortniteClient-Win64-Shipping.exe\PerfOptions" /v "IoPriority" /t REG_DWORD /d "8" /f
+Reg.exe add "HKLM\SOFTWARE\Microsoft\Windows NT\CurrentVersion\Image File Execution Options\FortniteClient-Win64-Shipping.exe\PerfOptions" /v "Clock Rate" /t REG_DWORD /d "65536" /f
+Reg.exe add "HKLM\SOFTWARE\Microsoft\Windows NT\CurrentVersion\Image File Execution Options\FortniteClient-Win64-Shipping.exe\PerfOptions" /v "Affinity" /t REG_DWORD /d "0" /f
+Reg.exe add "HKLM\SOFTWARE\Microsoft\Windows NT\CurrentVersion\Image File Execution Options\FortniteClient-Win64-Shipping.exe\PerfOptions" /v "CpuThreadPriority" /t REG_DWORD /d "8" /f
+Reg.exe add "HKLM\SOFTWARE\Microsoft\Windows NT\CurrentVersion\Image File Execution Options\FortniteClient-Win64-Shipping.exe\PerfOptions" /v "CpuPriorityControl" /t REG_DWORD /d "1" /f
+Reg.exe add "HKLM\SOFTWARE\Microsoft\Windows NT\CurrentVersion\Image File Execution Options\FortniteClient-Win64-Shipping.exe\PerfOptions" /v "CpuThreadCount" /t REG_DWORD /d "8" /f
+Reg.exe add "HKLM\SOFTWARE\Microsoft\Windows NT\CurrentVersion\Image File Execution Options\FortniteClient-Win64-Shipping.exe\PerfOptions" /v "PowerThrottlingOff" /t REG_DWORD /d "1" /f
+Reg.exe add "HKLM\SOFTWARE\Microsoft\Windows NT\CurrentVersion\Image File Execution Options\FortniteClient-Win64-Shipping.exe\PerfOptions" /v "CpuPrioritySeperation" /t REG_DWORD /d "0" /f
+Reg.exe add "HKLM\SOFTWARE\Microsoft\Windows NT\CurrentVersion\Image File Execution Options\FortniteClient-Win64-Shipping.exe\PerfOptions" /v "RMHdcpKeyGlobZero" /t REG_DWORD /d "1" /f
+Reg.exe add "HKLM\SOFTWARE\Microsoft\Windows NT\CurrentVersion\Image File Execution Options\FortniteClient-Win64-Shipping.exe\PerfOptions" /v "PowerLimitEnabled" /t REG_DWORD /d "1" /f
+Reg.exe add "HKLM\SOFTWARE\Microsoft\Windows NT\CurrentVersion\Image File Execution Options\FortniteClient-Win64-Shipping.exe\PerfOptions" /v "Priority" /t REG_DWORD /d "6" /f
+Reg.exe add "HKLM\SOFTWARE\Microsoft\Windows NT\CurrentVersion\Image File Execution Options\FortniteClient-Win64-Shipping.exe\PerfOptions" /v "SystemResponsiveness" /t REG_DWORD /d "0" /f
+Reg.exe add "HKLM\SOFTWARE\Microsoft\Windows NT\CurrentVersion\Image File Execution Options\FortniteClient-Win64-Shipping.exe\PerfOptions" /v "GPU Priority" /t REG_DWORD /d "8" /f
+Reg.exe add "HKLM\SOFTWARE\Microsoft\Windows NT\CurrentVersion\Image File Execution Options\FortniteClient-Win64-Shipping.exe\PerfOptions" /v "IOPriorityClass" /t REG_DWORD /d "0" /f
+Reg.exe add "HKLM\SOFTWARE\Microsoft\Windows NT\CurrentVersion\Image File Execution Options\FortniteClient-Win64-Shipping.exe\PerfOptions" /v "MaximumPerformanceEnabled" /t REG_DWORD /d "1" /f
+Reg.exe add "HKLM\SOFTWARE\Microsoft\Windows NT\CurrentVersion\Image File Execution Options\FortniteClient-Win64-Shipping.exe\PerfOptions" /v "MaxPerformance" /t REG_DWORD /d "256" /f
+Reg.exe add "HKLM\SOFTWARE\Microsoft\Windows NT\CurrentVersion\Image File Execution Options\FortniteClient-Win64-Shipping.exe\PerfOptions" /v "LowestPerformance" /t REG_DWORD /d "256" /f
+Reg.exe add "HKLM\SOFTWARE\Microsoft\Windows NT\CurrentVersion\Image File Execution Options\FortniteClient-Win64-Shipping.exe\PerfOptions" /v "MinimumPerformanceEnabled" /t REG_DWORD /d "0" /f
+Reg.exe add "HKLM\SOFTWARE\Microsoft\Windows NT\CurrentVersion\Image File Execution Options\FortniteClient-Win64-Shipping.exe\PerfOptions" /v "Io Priority" /t REG_DWORD /d "8" /f
+Reg.exe add "HKLM\SOFTWARE\Microsoft\Windows NT\CurrentVersion\Image File Execution Options\FortniteClient-Win64-Shipping.exe\PerfOptions" /v "HBFlagsSwitch" /t REG_DWORD /d "1" /f
+Reg.exe add "HKLM\SOFTWARE\Microsoft\Windows NT\CurrentVersion\Image File Execution Options\FortniteClient-Win64-Shipping.exe\PerfOptions" /v "HiberbootEnabled" /t REG_DWORD /d "0" /f
+Reg.exe add "HKLM\SOFTWARE\Microsoft\Windows NT\CurrentVersion\Image File Execution Options\FortniteClient-Win64-Shipping.exe\PerfOptions" /v "PowerSettingProfile" /t REG_DWORD /d "0" /f
+Reg.exe add "HKLM\SOFTWARE\Microsoft\Windows NT\CurrentVersion\Image File Execution Options\FortniteClient-Win64-Shipping.exe\PerfOptions" /v "SleepStudyDeviceAccountingLevel" /t REG_DWORD /d "4" /f
+Reg.exe add "HKLM\SOFTWARE\Microsoft\Windows NT\CurrentVersion\Image File Execution Options\FortniteClient-Win64-Shipping.exe\PerfOptions" /v "WatchdogResumeTimeout" /t REG_DWORD /d "120" /f
+Reg.exe add "HKLM\SOFTWARE\Microsoft\Windows NT\CurrentVersion\Image File Execution Options\FortniteClient-Win64-Shipping.exe\PerfOptions" /v "WatchdogSleepTimeout" /t REG_DWORD /d "300" /f
+Reg.exe add "HKLM\SOFTWARE\Microsoft\Windows NT\CurrentVersion\Image File Execution Options\FortniteClient-Win64-Shipping.exe\PerfOptions" /v "POSTTime" /t REG_DWORD /d "8323" /f
+Reg.exe add "HKLM\SOFTWARE\Microsoft\Windows NT\CurrentVersion\Image File Execution Options\FortniteClient-Win64-Shipping.exe\PerfOptions" /v "BootmgrUserInputTime" /t REG_DWORD /d "0" /f
+Reg.exe add "HKLM\SOFTWARE\Microsoft\Windows NT\CurrentVersion\Image File Execution Options\FortniteClient-Win64-Shipping.exe\PerfOptions" /v "FwPOSTTime" /t REG_DWORD /d "8323" /f
+Reg.exe add "HKLM\SOFTWARE\Microsoft\Windows NT\CurrentVersion\Image File Execution Options\FortniteClient-Win64-Shipping.exe\PerfOptions" /v "CoalescingTimerInterval" /t REG_DWORD /d "0" /f
+Reg.exe add "HKLM\SOFTWARE\Microsoft\Windows NT\CurrentVersion\Image File Execution Options\FortniteClient-Win64-Shipping.exe\PerfOptions" /v "GpuSpeed" /t REG_DWORD /d "256" /f
+Reg.exe add "HKLM\SOFTWARE\Microsoft\Windows NT\CurrentVersion\Image File Execution Options\FortniteClient-Win64-Shipping.exe\PerfOptions" /ve /t REG_SZ /d "True" /f
+Reg.exe add "HKLM\SOFTWARE\Microsoft\Windows NT\CurrentVersion\Image File Execution Options\FortniteClient-Win64-Shipping.exe\PerfOptions" /v "CpuCoresAlways" /t REG_DWORD /d "18" /f
+Reg.exe add "HKLM\SOFTWARE\Microsoft\Windows NT\CurrentVersion\Image File Execution Options\FortniteClient-Win64-Shipping.exe\PerfOptions" /v "CpuUtilization" /t REG_DWORD /d "256" /f
+Reg.exe add "HKLM\SOFTWARE\Microsoft\Windows NT\CurrentVersion\Image File Execution Options\FortniteClient-Win64-Shipping.exe\PerfOptions" /v "LatencyPerformance" /t REG_DWORD /d "256" /f
+Reg.exe add "HKLM\SOFTWARE\Microsoft\Windows NT\CurrentVersion\Image File Execution Options\FortniteClient-Win64-Shipping.exe\PerfOptions" /v "GpuPerformance" /t REG_DWORD /d "256" /f
+Reg.exe add "HKLM\SOFTWARE\Microsoft\Windows NT\CurrentVersion\Image File Execution Options\FortniteClient-Win64-Shipping.exe\PerfOptions" /v "RenderingSpread" /t REG_DWORD /d "0" /f
+Reg.exe add "HKLM\SOFTWARE\Microsoft\Windows NT\CurrentVersion\Image File Execution Options\FortniteClient-Win64-Shipping.exe\PerfOptions" /v "RenderingPerformance" /t REG_DWORD /d "256" /f
+Reg.exe add "HKLM\SOFTWARE\Microsoft\Windows NT\CurrentVersion\Image File Execution Options\FortniteClient-Win64-Shipping.exe\PerfOptions" /v "LatencySpread" /t REG_DWORD /d "0" /f
+Reg.exe add "HKLM\SOFTWARE\Microsoft\Windows NT\CurrentVersion\Image File Execution Options\FortniteClient-Win64-Shipping.exe\PerfOptions" /v "RenderingPriority" /t REG_DWORD /d "8" /f
+Reg.exe add "HKLM\SOFTWARE\Microsoft\Windows NT\CurrentVersion\Image File Execution Options\FortniteClient-Win64-Shipping.exe\PerfOptions" /v "LatencyPriority" /t REG_DWORD /d "8" /f
+Reg.exe add "HKLM\SOFTWARE\Microsoft\Windows NT\CurrentVersion\Image File Execution Options\FortniteClient-Win64-Shipping.exe\PerfOptions" /v "CpuSpread" /t REG_DWORD /d "0" /f
+Reg.exe add "HKLM\SOFTWARE\Microsoft\Windows NT\CurrentVersion\Image File Execution Options\FortniteClient-Win64-Shipping.exe\PerfOptions" /v "GpuRenderingPriority" /t REG_DWORD /d "8" /f
+Reg.exe add "HKLM\SOFTWARE\Microsoft\Windows NT\CurrentVersion\Image File Execution Options\FortniteClient-Win64-Shipping.exe\PerfOptions" /v "SpreadPriority" /t REG_DWORD /d "1" /f
+Reg.exe add "HKLM\SOFTWARE\Microsoft\Windows NT\CurrentVersion\Image File Execution Options\FortniteClient-Win64-Shipping.exe\PerfOptions" /v "GpuMax" /t REG_DWORD /d "256" /f
+Reg.exe add "HKLM\SOFTWARE\Microsoft\Windows NT\CurrentVersion\Image File Execution Options\FortniteClient-Win64-Shipping.exe\PerfOptions" /v "MinPerformance" /t REG_DWORD /d "256" /f
+Reg.exe add "HKLM\SOFTWARE\Microsoft\Windows NT\CurrentVersion\Image File Execution Options\FortniteClient-Win64-Shipping.exe\PerfOptions" /v "PerformancePriority" /t REG_DWORD /d "8" /f
+Reg.exe add "HKLM\SOFTWARE\Microsoft\Windows NT\CurrentVersion\Image File Execution Options\FortniteClient-Win64-Shipping.exe\PerfOptions" /v "PerformanceSpread" /t REG_DWORD /d "0" /f
+Reg.exe add "HKLM\SOFTWARE\Microsoft\Windows NT\CurrentVersion\Image File Execution Options\FortniteClient-Win64-Shipping.exe\PerfOptions" /v "GpuMaxPerformance" /t REG_DWORD /d "256" /f
+Reg.exe add "HKLM\SOFTWARE\Microsoft\Windows NT\CurrentVersion\Image File Execution Options\FortniteClient-Win64-Shipping.exe\PerfOptions" /v "CpuMaxPerformance" /t REG_DWORD /d "256" /f
+Reg.exe add "HKLM\SOFTWARE\Microsoft\Windows NT\CurrentVersion\Image File Execution Options\FortniteClient-Win64-Shipping.exe\PerfOptions" /v "GpuAccelerating" /t REG_DWORD /d "256" /f
+Reg.exe add "HKLM\SOFTWARE\Microsoft\Windows NT\CurrentVersion\Image File Execution Options\FortniteClient-Win64-Shipping.exe\PerfOptions" /v "DisableHWAcceleration" /t REG_DWORD /d "0" /f
+Reg.exe add "HKLM\SOFTWARE\Microsoft\Windows NT\CurrentVersion\Image File Execution Options\FortniteClient-Win64-Shipping.exe\PerfOptions" /v "MaxMultisampleSize" /t REG_DWORD /d "0" /f
+Reg.exe add "HKLM\SOFTWARE\Microsoft\Windows NT\CurrentVersion\Image File Execution Options\FortniteClient-Win64-Shipping.exe\PerfOptions" /v "HwSchMode" /t REG_DWORD /d "2" /f
+Reg.exe add "HKLM\SOFTWARE\Microsoft\Windows NT\CurrentVersion\Image File Execution Options\FortniteClient-Win64-Shipping.exe\PerfOptions" /v "GpuThrottling" /t REG_DWORD /d "0" /f
+Reg.exe add "HKLM\SOFTWARE\Microsoft\Windows NT\CurrentVersion\Image File Execution Options\FortniteClient-Win64-Shipping.exe\PerfOptions" /v "GpuStutter" /t REG_DWORD /d "0" /f
+Reg.exe add "HKLM\SOFTWARE\Microsoft\Windows NT\CurrentVersion\Image File Execution Options\FortniteClient-Win64-Shipping.exe\PerfOptions" /v "FadeIo" /t REG_DWORD /d "24" /f
+Reg.exe add "HKLM\SOFTWARE\Microsoft\Windows NT\CurrentVersion\Image File Execution Options\FortniteClient-Win64-Shipping.exe\PerfOptions" /v "GpuClockSwitchLatency" /t REG_DWORD /d "1" /f
+Reg.exe add "HKLM\SOFTWARE\Microsoft\Windows NT\CurrentVersion\Image File Execution Options\FortniteClient-Win64-Shipping.exe\PerfOptions" /v "UseReferenceRasterizer" /t REG_DWORD /d "0" /f
+Reg.exe add "HKLM\SOFTWARE\Microsoft\Windows NT\CurrentVersion\Image File Execution Options\FortniteClient-Win64-Shipping.exe\PerfOptions" /v "EnableHWAcceleration" /t REG_DWORD /d "1" /f
+Reg.exe add "HKLM\SOFTWARE\Microsoft\Windows NT\CurrentVersion\Image File Execution Options\FortniteClient-Win64-Shipping.exe\PerfOptions" /v "SmoothBrightnessDefaultEnable" /t REG_DWORD /d "0" /f
+Reg.exe add "HKLM\SOFTWARE\Microsoft\Windows NT\CurrentVersion\Image File Execution Options\FortniteClient-Win64-Shipping.exe\PerfOptions" /v "SmoothBrightnessDefaultDisable" /t REG_DWORD /d "1" /f
+Reg.exe add "HKLM\SOFTWARE\Microsoft\Windows NT\CurrentVersion\Image File Execution Options\FortniteClient-Win64-Shipping.exe\PerfOptions" /v "EnableRenderingSlowDown" /t REG_DWORD /d "0" /f
+Reg.exe add "HKLM\SOFTWARE\Microsoft\Windows NT\CurrentVersion\Image File Execution Options\FortniteClient-Win64-Shipping.exe\PerfOptions" /v "EnableRenderingCache" /t REG_DWORD /d "0" /f
+Reg.exe add "HKLM\SOFTWARE\Microsoft\Windows NT\CurrentVersion\Image File Execution Options\FortniteClient-Win64-Shipping.exe\PerfOptions" /v "EnableRenderingPowerSlowDown" /t REG_DWORD /d "0" /f
+Reg.exe add "HKLM\SOFTWARE\Microsoft\Windows NT\CurrentVersion\Image File Execution Options\FortniteClient-Win64-Shipping.exe\PerfOptions" /v "EnablePowerSlowDown" /t REG_DWORD /d "0" /f
+Reg.exe add "HKLM\SOFTWARE\Microsoft\Windows NT\CurrentVersion\Image File Execution Options\FortniteClient-Win64-Shipping.exe\PerfOptions" /v "EnablePowerControlSlowDown" /t REG_DWORD /d "0" /f
+Reg.exe add "HKLM\SOFTWARE\Microsoft\Windows NT\CurrentVersion\Image File Execution Options\FortniteClient-Win64-Shipping.exe\PerfOptions" /v "DisableRenderingContextPreemption" /t REG_DWORD /d "1" /f
+Reg.exe add "HKLM\SOFTWARE\Microsoft\Windows NT\CurrentVersion\Image File Execution Options\FortniteClient-Win64-Shipping.exe\PerfOptions" /v "DisableRenderingPreemption" /t REG_DWORD /d "1" /f
+Reg.exe add "HKLM\SOFTWARE\Microsoft\Windows NT\CurrentVersion\Image File Execution Options\FortniteClient-Win64-Shipping.exe\PerfOptions" /v "DisableFGBoostDecay" /t REG_DWORD /d "1" /f
+Reg.exe add "HKLM\SOFTWARE\Microsoft\Windows NT\CurrentVersion\Image File Execution Options\FortniteClient-Win64-Shipping.exe\PerfOptions" /v "IsLowPriority" /t REG_DWORD /d "0" /f
+Reg.exe add "HKLM\SOFTWARE\Microsoft\Windows NT\CurrentVersion\Image File Execution Options\FortniteClient-Win64-Shipping.exe\PerfOptions" /v "IsRenderingLowPriority" /t REG_DWORD /d "0" /f
+Reg.exe add "HKLM\SOFTWARE\Microsoft\Windows NT\CurrentVersion\Image File Execution Options\FortniteClient-Win64-Shipping.exe\PerfOptions" /v "RenderingBasePriority" /t REG_DWORD /d "130" /f
+Reg.exe add "HKLM\SOFTWARE\Microsoft\Windows NT\CurrentVersion\Image File Execution Options\FortniteClient-Win64-Shipping.exe\PerfOptions" /v "RenderingOverTargetPriority" /t REG_DWORD /d "80" /f
+Reg.exe add "HKLM\SOFTWARE\Microsoft\Windows NT\CurrentVersion\Image File Execution Options\FortniteClient-Win64-Shipping.exe\PerfOptions" /v "RenderThrottlingOff" /t REG_DWORD /d "1" /f
+Reg.exe add "HKLM\SOFTWARE\Microsoft\Windows NT\CurrentVersion\Image File Execution Options\FortniteClient-Win64-Shipping.exe\PerfOptions" /v "EnableMidRenderingPreemption" /t REG_DWORD /d "0" /f
+Reg.exe add "HKLM\SOFTWARE\Microsoft\Windows NT\CurrentVersion\Image File Execution Options\FortniteClient-Win64-Shipping.exe\PerfOptions" /v "RenderingPowerSteeringEnable" /t REG_DWORD /d "0" /f
+Reg.exe add "HKLM\SOFTWARE\Microsoft\Windows NT\CurrentVersion\Image File Execution Options\FortniteClient-Win64-Shipping.exe\PerfOptions" /v "PowerSavingVsyncOn" /t REG_DWORD /d "0" /f
+Reg.exe add "HKLM\SOFTWARE\Microsoft\Windows NT\CurrentVersion\Image File Execution Options\FortniteClient-Win64-Shipping.exe\PerfOptions" /v "HwSchedMode" /t REG_DWORD /d "2" /f
+Reg.exe add "HKLM\SOFTWARE\Microsoft\Windows NT\CurrentVersion\Image File Execution Options\FortniteClient-Win64-Shipping.exe\PerfOptions" /v "UnlimitedPerformance" /t REG_DWORD /d "1" /f
+Reg.exe add "HKLM\SOFTWARE\Microsoft\Windows NT\CurrentVersion\Image File Execution Options\FortniteClient-Win64-Shipping.exe\PerfOptions" /v "SmoothStutterEnabled" /t REG_DWORD /d "0" /f
+Reg.exe add "HKLM\SOFTWARE\Microsoft\Windows NT\CurrentVersion\Image File Execution Options\FortniteClient-Win64-Shipping.exe\PerfOptions" /v "EnableGpuTempData" /t REG_DWORD /d "0" /f
+Reg.exe add "HKLM\SOFTWARE\Microsoft\Windows NT\CurrentVersion\Image File Execution Options\FortniteClient-Win64-Shipping.exe\PerfOptions" /v "EnableGpuCashing" /t REG_DWORD /d "0" /f
+Reg.exe add "HKLM\SOFTWARE\Microsoft\Windows NT\CurrentVersion\Image File Execution Options\FortniteClient-Win64-Shipping.exe\PerfOptions" /v "EnableGpuSlowDown" /t REG_DWORD /d "0" /f
+Reg.exe add "HKLM\SOFTWARE\Microsoft\Windows NT\CurrentVersion\Image File Execution Options\FortniteClient-Win64-Shipping.exe\PerfOptions" /v "PPMEnabled" /t REG_DWORD /d "0" /f
+Reg.exe add "HKLM\SOFTWARE\Microsoft\Windows NT\CurrentVersion\Image File Execution Options\FortniteClient-Win64-Shipping.exe\PerfOptions" /v "EnableGpuPowerControl" /t REG_DWORD /d "0" /f
+Reg.exe add "HKLM\SOFTWARE\Microsoft\Windows NT\CurrentVersion\Image File Execution Options\FortniteClient-Win64-Shipping.exe\PerfOptions" /v "EnableGpuPreemption" /t REG_DWORD /d "0" /f
+Reg.exe add "HKLM\SOFTWARE\Microsoft\Windows NT\CurrentVersion\Image File Execution Options\FortniteClient-Win64-Shipping.exe\PerfOptions" /v "GpuIdleLatencyEnabled" /t REG_DWORD /d "0" /f
+Reg.exe add "HKLM\SOFTWARE\Microsoft\Windows NT\CurrentVersion\Image File Execution Options\FortniteClient-Win64-Shipping.exe\PerfOptions" /v "GpuIdleEnabled" /t REG_DWORD /d "0" /f
+Reg.exe add "HKLM\SOFTWARE\Microsoft\Windows NT\CurrentVersion\Image File Execution Options\FortniteClient-Win64-Shipping.exe\PerfOptions" /v "GpuPreemptionEnabled" /t REG_DWORD /d "0" /f
+Reg.exe add "HKLM\SOFTWARE\Microsoft\Windows NT\CurrentVersion\Image File Execution Options\FortniteClient-Win64-Shipping.exe\PerfOptions" /v "GpuBackgoundTaskPriority" /t REG_DWORD /d "0" /f
+Reg.exe add "HKLM\SOFTWARE\Microsoft\Windows NT\CurrentVersion\Image File Execution Options\FortniteClient-Win64-Shipping.exe\PerfOptions" /v "GpuRenderingPriority" /t REG_DWORD /d "3" /f
+Reg.exe add "HKLM\SOFTWARE\Microsoft\Windows NT\CurrentVersion\Image File Execution Options\FortniteClient-Win64-Shipping.exe\PerfOptions" /v "GpuBackgoundTaskLimit" /t REG_DWORD /d "0" /f
+Reg.exe add "HKLM\SOFTWARE\Microsoft\Windows NT\CurrentVersion\Image File Execution Options\FortniteClient-Win64-Shipping.exe\PerfOptions" /v "PowerSavingBackgoundTaskEnabled" /t REG_DWORD /d "1" /f
+Reg.exe add "HKLM\SOFTWARE\Microsoft\Windows NT\CurrentVersion\Image File Execution Options\FortniteClient-Win64-Shipping.exe\PerfOptions" /v "RenderingSmoothStutterEnabled" /t REG_DWORD /d "0" /f
+Reg.exe add "HKLM\SOFTWARE\Microsoft\Windows NT\CurrentVersion\Image File Execution Options\FortniteClient-Win64-Shipping.exe\PerfOptions" /v "RenderingStutterEnabled" /t REG_DWORD /d "0" /f
+Reg.exe add "HKLM\SOFTWARE\Microsoft\Windows NT\CurrentVersion\Image File Execution Options\FortniteClient-Win64-Shipping.exe\PerfOptions" /v "GpuRenderingLatencyEnabled" /t REG_DWORD /d "0" /f
+Reg.exe add "HKLM\SOFTWARE\Microsoft\Windows NT\CurrentVersion\Image File Execution Options\FortniteClient-Win64-Shipping.exe\PerfOptions" /v "GpuRenderingPriorityForBackgoundTask" /t REG_DWORD /d "0" /f
+Reg.exe add "HKLM\SOFTWARE\Microsoft\Windows NT\CurrentVersion\Image File Execution Options\FortniteClient-Win64-Shipping.exe\PerfOptions" /v "PowerSavingRenderingEnabled" /t REG_DWORD /d "0" /f
+Reg.exe add "HKLM\SOFTWARE\Microsoft\Windows NT\CurrentVersion\Image File Execution Options\FortniteClient-Win64-Shipping.exe\PerfOptions" /v "GpuClockSpeed" /t REG_DWORD /d "65536" /f
+Reg.exe add "HKLM\SOFTWARE\Microsoft\Windows NT\CurrentVersion\Image File Execution Options\FortniteClient-Win64-Shipping.exe\PerfOptions" /v "GpuRenderingClockSpeed" /t REG_DWORD /d "65536" /f
+Reg.exe add "HKLM\SOFTWARE\Microsoft\Windows NT\CurrentVersion\Image File Execution Options\FortniteClient-Win64-Shipping.exe\PerfOptions" /v "UseBestResolution" /t REG_DWORD /d "0" /f
+Reg.exe add "HKLM\SOFTWARE\Microsoft\Windows NT\CurrentVersion\Image File Execution Options\FortniteClient-Win64-Shipping.exe\PerfOptions" /v "SmoothResolutionEnabled" /t REG_DWORD /d "1" /f
+Reg.exe add "HKLM\SOFTWARE\Microsoft\Windows NT\CurrentVersion\Image File Execution Options\FortniteClient-Win64-Shipping.exe\PerfOptions" /v "TVSupportEnabled" /t REG_DWORD /d "0" /f
+Reg.exe add "HKLM\SOFTWARE\Microsoft\Windows NT\CurrentVersion\Image File Execution Options\FortniteClient-Win64-Shipping.exe\PerfOptions" /v "GpuThrottleRate" /t REG_DWORD /d "65536" /f
+Reg.exe add "HKLM\SOFTWARE\Microsoft\Windows NT\CurrentVersion\Image File Execution Options\FortniteClient-Win64-Shipping.exe\PerfOptions" /v "SwapEffectUpgradeCache" /t REG_DWORD /d "1" /f
+Reg.exe add "HKLM\SOFTWARE\Microsoft\Windows NT\CurrentVersion\Image File Execution Options\FortniteClient-Win64-Shipping.exe\PerfOptions" /v "CpuPriorityClass" /t REG_DWORD /d "3" /f
+Reg.exe add "HKLM\SOFTWARE\Microsoft\Windows NT\CurrentVersion\Image File Execution Options\FortniteClient-Win64-Shipping.exe\PerfOptions" /v "IoPriority" /t REG_DWORD /d "3" /f
+Reg.exe add "HKLM\SOFTWARE\Microsoft\Windows NT\CurrentVersion\Image File Execution Options\FortniteClient-Win64-Shipping.exe" /v "UseLargePages" /t REG_DWORD /d "1" /f
+Reg.exe add "HKLM\SOFTWARE\Microsoft\Windows NT\CurrentVersion\Image File Execution Options\FortniteClient-Win64-Shipping.exe\PerfOptions" /v "CpuPriorityClass" /t REG_DWORD /d "8" /f
+Reg.exe add "HKLM\SOFTWARE\Microsoft\Windows NT\CurrentVersion\Image File Execution Options\FortniteClient-Win64-Shipping.exe\PerfOptions" /v "GpuPriorityClass" /t REG_DWORD /d "8" /f
+Reg.exe add "HKLM\SOFTWARE\Microsoft\Windows NT\CurrentVersion\Image File Execution Options\FortniteClient-Win64-Shipping.exe\PerfOptions" /v "CpuPriority" /t REG_DWORD /d "42" /f
+Reg.exe add "HKLM\SOFTWARE\Microsoft\Windows NT\CurrentVersion\Image File Execution Options\FortniteClient-Win64-Shipping.exe\PerfOptions" /v "GpuPriority" /t REG_DWORD /d "42" /f
+Reg.exe add "HKLM\SOFTWARE\Microsoft\Windows NT\CurrentVersion\Image File Execution Options\FortniteClient-Win64-Shipping.exe\PerfOptions" /v "IoPriority" /t REG_DWORD /d "8" /f
+Reg.exe add "HKLM\SOFTWARE\Microsoft\Windows NT\CurrentVersion\Image File Execution Options\FortniteClient-Win64-Shipping.exe\PerfOptions" /v "Clock Rate" /t REG_DWORD /d "65536" /f
+Reg.exe add "HKLM\SOFTWARE\Microsoft\Windows NT\CurrentVersion\Image File Execution Options\FortniteClient-Win64-Shipping.exe\PerfOptions" /v "Affinity" /t REG_DWORD /d "0" /f
+Reg.exe add "HKLM\SOFTWARE\Microsoft\Windows NT\CurrentVersion\Image File Execution Options\FortniteClient-Win64-Shipping.exe\PerfOptions" /v "CpuThreadPriority" /t REG_DWORD /d "8" /f
+Reg.exe add "HKLM\SOFTWARE\Microsoft\Windows NT\CurrentVersion\Image File Execution Options\FortniteClient-Win64-Shipping.exe\PerfOptions" /v "CpuPriorityControl" /t REG_DWORD /d "1" /f
+Reg.exe add "HKLM\SOFTWARE\Microsoft\Windows NT\CurrentVersion\Image File Execution Options\FortniteClient-Win64-Shipping.exe\PerfOptions" /v "CpuThreadCount" /t REG_DWORD /d "8" /f
+Reg.exe add "HKLM\SOFTWARE\Microsoft\Windows NT\CurrentVersion\Image File Execution Options\FortniteClient-Win64-Shipping.exe\PerfOptions" /v "PowerThrottlingOff" /t REG_DWORD /d "1" /f
+Reg.exe add "HKLM\SOFTWARE\Microsoft\Windows NT\CurrentVersion\Image File Execution Options\FortniteClient-Win64-Shipping.exe\PerfOptions" /v "CpuPrioritySeperation" /t REG_DWORD /d "0" /f
+Reg.exe add "HKLM\SOFTWARE\Microsoft\Windows NT\CurrentVersion\Image File Execution Options\FortniteClient-Win64-Shipping.exe\PerfOptions" /v "RMHdcpKeyGlobZero" /t REG_DWORD /d "1" /f
+Reg.exe add "HKLM\SOFTWARE\Microsoft\Windows NT\CurrentVersion\Image File Execution Options\FortniteClient-Win64-Shipping.exe\PerfOptions" /v "PowerLimitEnabled" /t REG_DWORD /d "1" /f
+Reg.exe add "HKLM\SOFTWARE\Microsoft\Windows NT\CurrentVersion\Image File Execution Options\FortniteClient-Win64-Shipping.exe\PerfOptions" /v "Priority" /t REG_DWORD /d "6" /f
+Reg.exe add "HKLM\SOFTWARE\Microsoft\Windows NT\CurrentVersion\Image File Execution Options\FortniteClient-Win64-Shipping.exe\PerfOptions" /v "SystemResponsiveness" /t REG_DWORD /d "0" /f
+Reg.exe add "HKLM\SOFTWARE\Microsoft\Windows NT\CurrentVersion\Image File Execution Options\FortniteClient-Win64-Shipping.exe\PerfOptions" /v "GPU Priority" /t REG_DWORD /d "8" /f
+Reg.exe add "HKLM\SOFTWARE\Microsoft\Windows NT\CurrentVersion\Image File Execution Options\FortniteClient-Win64-Shipping.exe\PerfOptions" /v "IOPriorityClass" /t REG_DWORD /d "0" /f
+Reg.exe add "HKLM\SOFTWARE\Microsoft\Windows NT\CurrentVersion\Image File Execution Options\FortniteClient-Win64-Shipping.exe\PerfOptions" /v "MaximumPerformanceEnabled" /t REG_DWORD /d "1" /f
+Reg.exe add "HKLM\SOFTWARE\Microsoft\Windows NT\CurrentVersion\Image File Execution Options\FortniteClient-Win64-Shipping.exe\PerfOptions" /v "MaxPerformance" /t REG_DWORD /d "256" /f
+Reg.exe add "HKLM\SOFTWARE\Microsoft\Windows NT\CurrentVersion\Image File Execution Options\FortniteClient-Win64-Shipping.exe\PerfOptions" /v "LowestPerformance" /t REG_DWORD /d "256" /f
+Reg.exe add "HKLM\SOFTWARE\Microsoft\Windows NT\CurrentVersion\Image File Execution Options\FortniteClient-Win64-Shipping.exe\PerfOptions" /v "MinimumPerformanceEnabled" /t REG_DWORD /d "0" /f
+Reg.exe add "HKLM\SOFTWARE\Microsoft\Windows NT\CurrentVersion\Image File Execution Options\FortniteClient-Win64-Shipping.exe\PerfOptions" /v "Io Priority" /t REG_DWORD /d "8" /f
+Reg.exe add "HKLM\SOFTWARE\Microsoft\Windows NT\CurrentVersion\Image File Execution Options\FortniteClient-Win64-Shipping.exe\PerfOptions" /v "HBFlagsSwitch" /t REG_DWORD /d "1" /f
+Reg.exe add "HKLM\SOFTWARE\Microsoft\Windows NT\CurrentVersion\Image File Execution Options\FortniteClient-Win64-Shipping.exe\PerfOptions" /v "HiberbootEnabled" /t REG_DWORD /d "0" /f
+Reg.exe add "HKLM\SOFTWARE\Microsoft\Windows NT\CurrentVersion\Image File Execution Options\FortniteClient-Win64-Shipping.exe\PerfOptions" /v "PowerSettingProfile" /t REG_DWORD /d "0" /f
+Reg.exe add "HKLM\SOFTWARE\Microsoft\Windows NT\CurrentVersion\Image File Execution Options\FortniteClient-Win64-Shipping.exe\PerfOptions" /v "SleepStudyDeviceAccountingLevel" /t REG_DWORD /d "4" /f
+Reg.exe add "HKLM\SOFTWARE\Microsoft\Windows NT\CurrentVersion\Image File Execution Options\FortniteClient-Win64-Shipping.exe\PerfOptions" /v "WatchdogResumeTimeout" /t REG_DWORD /d "120" /f
+Reg.exe add "HKLM\SOFTWARE\Microsoft\Windows NT\CurrentVersion\Image File Execution Options\FortniteClient-Win64-Shipping.exe\PerfOptions" /v "WatchdogSleepTimeout" /t REG_DWORD /d "300" /f
+Reg.exe add "HKLM\SOFTWARE\Microsoft\Windows NT\CurrentVersion\Image File Execution Options\FortniteClient-Win64-Shipping.exe\PerfOptions" /v "POSTTime" /t REG_DWORD /d "8323" /f
+Reg.exe add "HKLM\SOFTWARE\Microsoft\Windows NT\CurrentVersion\Image File Execution Options\FortniteClient-Win64-Shipping.exe\PerfOptions" /v "BootmgrUserInputTime" /t REG_DWORD /d "0" /f
+Reg.exe add "HKLM\SOFTWARE\Microsoft\Windows NT\CurrentVersion\Image File Execution Options\FortniteClient-Win64-Shipping.exe\PerfOptions" /v "FwPOSTTime" /t REG_DWORD /d "8323" /f
+Reg.exe add "HKLM\SOFTWARE\Microsoft\Windows NT\CurrentVersion\Image File Execution Options\FortniteClient-Win64-Shipping.exe\PerfOptions" /v "CoalescingTimerInterval" /t REG_DWORD /d "0" /f
+Reg.exe add "HKLM\SOFTWARE\Microsoft\Windows NT\CurrentVersion\Image File Execution Options\FortniteClient-Win64-Shipping.exe\PerfOptions" /v "GpuSpeed" /t REG_DWORD /d "256" /f
+Reg.exe add "HKLM\SOFTWARE\Microsoft\Windows NT\CurrentVersion\Image File Execution Options\FortniteClient-Win64-Shipping.exe\PerfOptions" /ve /t REG_SZ /d "True" /f
+Reg.exe add "HKLM\SOFTWARE\Microsoft\Windows NT\CurrentVersion\Image File Execution Options\FortniteClient-Win64-Shipping.exe\PerfOptions" /v "CpuCoresAlways" /t REG_DWORD /d "18" /f
+Reg.exe add "HKLM\SOFTWARE\Microsoft\Windows NT\CurrentVersion\Image File Execution Options\FortniteClient-Win64-Shipping.exe\PerfOptions" /v "CpuUtilization" /t REG_DWORD /d "256" /f
+Reg.exe add "HKLM\SOFTWARE\Microsoft\Windows NT\CurrentVersion\Image File Execution Options\FortniteClient-Win64-Shipping.exe\PerfOptions" /v "LatencyPerformance" /t REG_DWORD /d "256" /f
+Reg.exe add "HKLM\SOFTWARE\Microsoft\Windows NT\CurrentVersion\Image File Execution Options\FortniteClient-Win64-Shipping.exe\PerfOptions" /v "GpuPerformance" /t REG_DWORD /d "256" /f
+Reg.exe add "HKLM\SOFTWARE\Microsoft\Windows NT\CurrentVersion\Image File Execution Options\FortniteClient-Win64-Shipping.exe\PerfOptions" /v "RenderingSpread" /t REG_DWORD /d "0" /f
+Reg.exe add "HKLM\SOFTWARE\Microsoft\Windows NT\CurrentVersion\Image File Execution Options\FortniteClient-Win64-Shipping.exe\PerfOptions" /v "RenderingPerformance" /t REG_DWORD /d "256" /f
+Reg.exe add "HKLM\SOFTWARE\Microsoft\Windows NT\CurrentVersion\Image File Execution Options\FortniteClient-Win64-Shipping.exe\PerfOptions" /v "LatencySpread" /t REG_DWORD /d "0" /f
+Reg.exe add "HKLM\SOFTWARE\Microsoft\Windows NT\CurrentVersion\Image File Execution Options\FortniteClient-Win64-Shipping.exe\PerfOptions" /v "RenderingPriority" /t REG_DWORD /d "8" /f
+Reg.exe add "HKLM\SOFTWARE\Microsoft\Windows NT\CurrentVersion\Image File Execution Options\FortniteClient-Win64-Shipping.exe\PerfOptions" /v "LatencyPriority" /t REG_DWORD /d "8" /f
+Reg.exe add "HKLM\SOFTWARE\Microsoft\Windows NT\CurrentVersion\Image File Execution Options\FortniteClient-Win64-Shipping.exe\PerfOptions" /v "CpuSpread" /t REG_DWORD /d "0" /f
+Reg.exe add "HKLM\SOFTWARE\Microsoft\Windows NT\CurrentVersion\Image File Execution Options\FortniteClient-Win64-Shipping.exe\PerfOptions" /v "GpuRenderingPriority" /t REG_DWORD /d "8" /f
+Reg.exe add "HKLM\SOFTWARE\Microsoft\Windows NT\CurrentVersion\Image File Execution Options\FortniteClient-Win64-Shipping.exe\PerfOptions" /v "SpreadPriority" /t REG_DWORD /d "1" /f
+Reg.exe add "HKLM\SOFTWARE\Microsoft\Windows NT\CurrentVersion\Image File Execution Options\FortniteClient-Win64-Shipping.exe\PerfOptions" /v "GpuMax" /t REG_DWORD /d "256" /f
+Reg.exe add "HKLM\SOFTWARE\Microsoft\Windows NT\CurrentVersion\Image File Execution Options\FortniteClient-Win64-Shipping.exe\PerfOptions" /v "MinPerformance" /t REG_DWORD /d "256" /f
+Reg.exe add "HKLM\SOFTWARE\Microsoft\Windows NT\CurrentVersion\Image File Execution Options\FortniteClient-Win64-Shipping.exe\PerfOptions" /v "PerformancePriority" /t REG_DWORD /d "8" /f
+Reg.exe add "HKLM\SOFTWARE\Microsoft\Windows NT\CurrentVersion\Image File Execution Options\FortniteClient-Win64-Shipping.exe\PerfOptions" /v "PerformanceSpread" /t REG_DWORD /d "0" /f
+Reg.exe add "HKLM\SOFTWARE\Microsoft\Windows NT\CurrentVersion\Image File Execution Options\FortniteClient-Win64-Shipping.exe\PerfOptions" /v "GpuMaxPerformance" /t REG_DWORD /d "256" /f
+Reg.exe add "HKLM\SOFTWARE\Microsoft\Windows NT\CurrentVersion\Image File Execution Options\FortniteClient-Win64-Shipping.exe\PerfOptions" /v "CpuMaxPerformance" /t REG_DWORD /d "256" /f
+Reg.exe add "HKLM\SOFTWARE\Microsoft\Windows NT\CurrentVersion\Image File Execution Options\FortniteClient-Win64-Shipping.exe\PerfOptions" /v "GpuAccelerating" /t REG_DWORD /d "256" /f
+Reg.exe add "HKLM\SOFTWARE\Microsoft\Windows NT\CurrentVersion\Image File Execution Options\FortniteClient-Win64-Shipping.exe\PerfOptions" /v "DisableHWAcceleration" /t REG_DWORD /d "0" /f
+Reg.exe add "HKLM\SOFTWARE\Microsoft\Windows NT\CurrentVersion\Image File Execution Options\FortniteClient-Win64-Shipping.exe\PerfOptions" /v "MaxMultisampleSize" /t REG_DWORD /d "0" /f
+Reg.exe add "HKLM\SOFTWARE\Microsoft\Windows NT\CurrentVersion\Image File Execution Options\FortniteClient-Win64-Shipping.exe\PerfOptions" /v "HwSchMode" /t REG_DWORD /d "2" /f
+Reg.exe add "HKLM\SOFTWARE\Microsoft\Windows NT\CurrentVersion\Image File Execution Options\FortniteClient-Win64-Shipping.exe\PerfOptions" /v "GpuThrottling" /t REG_DWORD /d "0" /f
+Reg.exe add "HKLM\SOFTWARE\Microsoft\Windows NT\CurrentVersion\Image File Execution Options\FortniteClient-Win64-Shipping.exe\PerfOptions" /v "GpuStutter" /t REG_DWORD /d "0" /f
+Reg.exe add "HKLM\SOFTWARE\Microsoft\Windows NT\CurrentVersion\Image File Execution Options\FortniteClient-Win64-Shipping.exe\PerfOptions" /v "FadeIo" /t REG_DWORD /d "24" /f
+Reg.exe add "HKLM\SOFTWARE\Microsoft\Windows NT\CurrentVersion\Image File Execution Options\FortniteClient-Win64-Shipping.exe\PerfOptions" /v "GpuClockSwitchLatency" /t REG_DWORD /d "1" /f
+Reg.exe add "HKLM\SOFTWARE\Microsoft\Windows NT\CurrentVersion\Image File Execution Options\FortniteClient-Win64-Shipping.exe\PerfOptions" /v "UseReferenceRasterizer" /t REG_DWORD /d "0" /f
+Reg.exe add "HKLM\SOFTWARE\Microsoft\Windows NT\CurrentVersion\Image File Execution Options\FortniteClient-Win64-Shipping.exe\PerfOptions" /v "EnableHWAcceleration" /t REG_DWORD /d "1" /f
+Reg.exe add "HKLM\SOFTWARE\Microsoft\Windows NT\CurrentVersion\Image File Execution Options\FortniteClient-Win64-Shipping.exe\PerfOptions" /v "SmoothBrightnessDefaultEnable" /t REG_DWORD /d "0" /f
+Reg.exe add "HKLM\SOFTWARE\Microsoft\Windows NT\CurrentVersion\Image File Execution Options\FortniteClient-Win64-Shipping.exe\PerfOptions" /v "SmoothBrightnessDefaultDisable" /t REG_DWORD /d "1" /f
+Reg.exe add "HKLM\SOFTWARE\Microsoft\Windows NT\CurrentVersion\Image File Execution Options\FortniteClient-Win64-Shipping.exe\PerfOptions" /v "EnableRenderingSlowDown" /t REG_DWORD /d "0" /f
+Reg.exe add "HKLM\SOFTWARE\Microsoft\Windows NT\CurrentVersion\Image File Execution Options\FortniteClient-Win64-Shipping.exe\PerfOptions" /v "EnableRenderingCache" /t REG_DWORD /d "0" /f
+Reg.exe add "HKLM\SOFTWARE\Microsoft\Windows NT\CurrentVersion\Image File Execution Options\FortniteClient-Win64-Shipping.exe\PerfOptions" /v "EnableRenderingPowerSlowDown" /t REG_DWORD /d "0" /f
+Reg.exe add "HKLM\SOFTWARE\Microsoft\Windows NT\CurrentVersion\Image File Execution Options\FortniteClient-Win64-Shipping.exe\PerfOptions" /v "EnablePowerSlowDown" /t REG_DWORD /d "0" /f
+Reg.exe add "HKLM\SOFTWARE\Microsoft\Windows NT\CurrentVersion\Image File Execution Options\FortniteClient-Win64-Shipping.exe\PerfOptions" /v "EnablePowerControlSlowDown" /t REG_DWORD /d "0" /f
+Reg.exe add "HKLM\SOFTWARE\Microsoft\Windows NT\CurrentVersion\Image File Execution Options\FortniteClient-Win64-Shipping.exe\PerfOptions" /v "DisableRenderingContextPreemption" /t REG_DWORD /d "1" /f
+Reg.exe add "HKLM\SOFTWARE\Microsoft\Windows NT\CurrentVersion\Image File Execution Options\FortniteClient-Win64-Shipping.exe\PerfOptions" /v "DisableRenderingPreemption" /t REG_DWORD /d "1" /f
+Reg.exe add "HKLM\SOFTWARE\Microsoft\Windows NT\CurrentVersion\Image File Execution Options\FortniteClient-Win64-Shipping.exe\PerfOptions" /v "DisableFGBoostDecay" /t REG_DWORD /d "1" /f
+Reg.exe add "HKLM\SOFTWARE\Microsoft\Windows NT\CurrentVersion\Image File Execution Options\FortniteClient-Win64-Shipping.exe\PerfOptions" /v "IsLowPriority" /t REG_DWORD /d "0" /f
+Reg.exe add "HKLM\SOFTWARE\Microsoft\Windows NT\CurrentVersion\Image File Execution Options\FortniteClient-Win64-Shipping.exe\PerfOptions" /v "IsRenderingLowPriority" /t REG_DWORD /d "0" /f
+Reg.exe add "HKLM\SOFTWARE\Microsoft\Windows NT\CurrentVersion\Image File Execution Options\FortniteClient-Win64-Shipping.exe\PerfOptions" /v "RenderingBasePriority" /t REG_DWORD /d "130" /f
+Reg.exe add "HKLM\SOFTWARE\Microsoft\Windows NT\CurrentVersion\Image File Execution Options\FortniteClient-Win64-Shipping.exe\PerfOptions" /v "RenderingOverTargetPriority" /t REG_DWORD /d "80" /f
+Reg.exe add "HKLM\SOFTWARE\Microsoft\Windows NT\CurrentVersion\Image File Execution Options\FortniteClient-Win64-Shipping.exe\PerfOptions" /v "RenderThrottlingOff" /t REG_DWORD /d "1" /f
+Reg.exe add "HKLM\SOFTWARE\Microsoft\Windows NT\CurrentVersion\Image File Execution Options\FortniteClient-Win64-Shipping.exe\PerfOptions" /v "EnableMidRenderingPreemption" /t REG_DWORD /d "0" /f
+Reg.exe add "HKLM\SOFTWARE\Microsoft\Windows NT\CurrentVersion\Image File Execution Options\FortniteClient-Win64-Shipping.exe\PerfOptions" /v "RenderingPowerSteeringEnable" /t REG_DWORD /d "0" /f
+Reg.exe add "HKLM\SOFTWARE\Microsoft\Windows NT\CurrentVersion\Image File Execution Options\FortniteClient-Win64-Shipping.exe\PerfOptions" /v "PowerSavingVsyncOn" /t REG_DWORD /d "0" /f
+Reg.exe add "HKLM\SOFTWARE\Microsoft\Windows NT\CurrentVersion\Image File Execution Options\FortniteClient-Win64-Shipping.exe\PerfOptions" /v "HwSchedMode" /t REG_DWORD /d "2" /f
+Reg.exe add "HKLM\SOFTWARE\Microsoft\Windows NT\CurrentVersion\Image File Execution Options\FortniteClient-Win64-Shipping.exe\PerfOptions" /v "UnlimitedPerformance" /t REG_DWORD /d "1" /f
+Reg.exe add "HKLM\SOFTWARE\Microsoft\Windows NT\CurrentVersion\Image File Execution Options\FortniteClient-Win64-Shipping.exe\PerfOptions" /v "SmoothStutterEnabled" /t REG_DWORD /d "0" /f
+Reg.exe add "HKLM\SOFTWARE\Microsoft\Windows NT\CurrentVersion\Image File Execution Options\FortniteClient-Win64-Shipping.exe\PerfOptions" /v "EnableGpuTempData" /t REG_DWORD /d "0" /f
+Reg.exe add "HKLM\SOFTWARE\Microsoft\Windows NT\CurrentVersion\Image File Execution Options\FortniteClient-Win64-Shipping.exe\PerfOptions" /v "EnableGpuCashing" /t REG_DWORD /d "0" /f
+Reg.exe add "HKLM\SOFTWARE\Microsoft\Windows NT\CurrentVersion\Image File Execution Options\FortniteClient-Win64-Shipping.exe\PerfOptions" /v "EnableGpuSlowDown" /t REG_DWORD /d "0" /f
+Reg.exe add "HKLM\SOFTWARE\Microsoft\Windows NT\CurrentVersion\Image File Execution Options\FortniteClient-Win64-Shipping.exe\PerfOptions" /v "PPMEnabled" /t REG_DWORD /d "0" /f
+Reg.exe add "HKLM\SOFTWARE\Microsoft\Windows NT\CurrentVersion\Image File Execution Options\FortniteClient-Win64-Shipping.exe\PerfOptions" /v "EnableGpuPowerControl" /t REG_DWORD /d "0" /f
+Reg.exe add "HKLM\SOFTWARE\Microsoft\Windows NT\CurrentVersion\Image File Execution Options\FortniteClient-Win64-Shipping.exe\PerfOptions" /v "EnableGpuPreemption" /t REG_DWORD /d "0" /f
+Reg.exe add "HKLM\SOFTWARE\Microsoft\Windows NT\CurrentVersion\Image File Execution Options\FortniteClient-Win64-Shipping.exe\PerfOptions" /v "GpuIdleLatencyEnabled" /t REG_DWORD /d "0" /f
+Reg.exe add "HKLM\SOFTWARE\Microsoft\Windows NT\CurrentVersion\Image File Execution Options\FortniteClient-Win64-Shipping.exe\PerfOptions" /v "GpuIdleEnabled" /t REG_DWORD /d "0" /f
+Reg.exe add "HKLM\SOFTWARE\Microsoft\Windows NT\CurrentVersion\Image File Execution Options\FortniteClient-Win64-Shipping.exe\PerfOptions" /v "GpuPreemptionEnabled" /t REG_DWORD /d "0" /f
+Reg.exe add "HKLM\SOFTWARE\Microsoft\Windows NT\CurrentVersion\Image File Execution Options\FortniteClient-Win64-Shipping.exe\PerfOptions" /v "GpuBackgoundTaskPriority" /t REG_DWORD /d "0" /f
+Reg.exe add "HKLM\SOFTWARE\Microsoft\Windows NT\CurrentVersion\Image File Execution Options\FortniteClient-Win64-Shipping.exe\PerfOptions" /v "GpuRenderingPriority" /t REG_DWORD /d "3" /f
+Reg.exe add "HKLM\SOFTWARE\Microsoft\Windows NT\CurrentVersion\Image File Execution Options\FortniteClient-Win64-Shipping.exe\PerfOptions" /v "GpuBackgoundTaskLimit" /t REG_DWORD /d "0" /f
+Reg.exe add "HKLM\SOFTWARE\Microsoft\Windows NT\CurrentVersion\Image File Execution Options\FortniteClient-Win64-Shipping.exe\PerfOptions" /v "PowerSavingBackgoundTaskEnabled" /t REG_DWORD /d "1" /f
+Reg.exe add "HKLM\SOFTWARE\Microsoft\Windows NT\CurrentVersion\Image File Execution Options\FortniteClient-Win64-Shipping.exe\PerfOptions" /v "RenderingSmoothStutterEnabled" /t REG_DWORD /d "0" /f
+Reg.exe add "HKLM\SOFTWARE\Microsoft\Windows NT\CurrentVersion\Image File Execution Options\FortniteClient-Win64-Shipping.exe\PerfOptions" /v "RenderingStutterEnabled" /t REG_DWORD /d "0" /f
+Reg.exe add "HKLM\SOFTWARE\Microsoft\Windows NT\CurrentVersion\Image File Execution Options\FortniteClient-Win64-Shipping.exe\PerfOptions" /v "GpuRenderingLatencyEnabled" /t REG_DWORD /d "0" /f
+Reg.exe add "HKLM\SOFTWARE\Microsoft\Windows NT\CurrentVersion\Image File Execution Options\FortniteClient-Win64-Shipping.exe\PerfOptions" /v "GpuRenderingPriorityForBackgoundTask" /t REG_DWORD /d "0" /f
+Reg.exe add "HKLM\SOFTWARE\Microsoft\Windows NT\CurrentVersion\Image File Execution Options\FortniteClient-Win64-Shipping.exe\PerfOptions" /v "PowerSavingRenderingEnabled" /t REG_DWORD /d "0" /f
+Reg.exe add "HKLM\SOFTWARE\Microsoft\Windows NT\CurrentVersion\Image File Execution Options\FortniteClient-Win64-Shipping.exe\PerfOptions" /v "GpuClockSpeed" /t REG_DWORD /d "65536" /f
+Reg.exe add "HKLM\SOFTWARE\Microsoft\Windows NT\CurrentVersion\Image File Execution Options\FortniteClient-Win64-Shipping.exe\PerfOptions" /v "GpuRenderingClockSpeed" /t REG_DWORD /d "65536" /f
+Reg.exe add "HKLM\SOFTWARE\Microsoft\Windows NT\CurrentVersion\Image File Execution Options\FortniteClient-Win64-Shipping.exe\PerfOptions" /v "UseBestResolution" /t REG_DWORD /d "0" /f
+Reg.exe add "HKLM\SOFTWARE\Microsoft\Windows NT\CurrentVersion\Image File Execution Options\FortniteClient-Win64-Shipping.exe\PerfOptions" /v "SmoothResolutionEnabled" /t REG_DWORD /d "1" /f
+Reg.exe add "HKLM\SOFTWARE\Microsoft\Windows NT\CurrentVersion\Image File Execution Options\FortniteClient-Win64-Shipping.exe\PerfOptions" /v "TVSupportEnabled" /t REG_DWORD /d "0" /f
+Reg.exe add "HKLM\SOFTWARE\Microsoft\Windows NT\CurrentVersion\Image File Execution Options\FortniteClient-Win64-Shipping.exe\PerfOptions" /v "GpuThrottleRate" /t REG_DWORD /d "65536" /f
+Reg.exe add "HKLM\SOFTWARE\Microsoft\Windows NT\CurrentVersion\Image File Execution Options\FortniteClient-Win64-Shipping.exe\PerfOptions" /v "SwapEffectUpgradeCache" /t REG_DWORD /d "1" /f
+Reg.exe add "HKLM\SOFTWARE\Microsoft\Windows NT\CurrentVersion\Image File Execution Options\FortniteClient-Win64-Shipping.exe\PerfOptions" /v "CpuPriorityClass" /t REG_DWORD /d "3" /f
+Reg.exe add "HKLM\SOFTWARE\Microsoft\Windows NT\CurrentVersion\Image File Execution Options\FortniteClient-Win64-Shipping.exe\PerfOptions" /v "IoPriority" /t REG_DWORD /d "3" /f
+Reg.exe add "HKLM\SOFTWARE\Microsoft\Windows NT\CurrentVersion\Image File Execution Options\FortniteClient-Win64-Shipping.exe" /v "UseLargePages" /t REG_DWORD /d "1" /f
+Reg.exe add "HKLM\SOFTWARE\Microsoft\Windows NT\CurrentVersion\Image File Execution Options\FortniteClient-Win64-Shipping.exe\PerfOptions" /v "CpuPriorityClass" /t REG_DWORD /d "3" /f
+Reg.exe add "HKLM\Software\Policies\Microsoft\Windows\QoS\%%i" /v "Application Name" /t REG_SZ /d "%%i.exe" /f
+Reg.exe add "HKLM\Software\Policies\Microsoft\Windows\QoS\%%i" /v "Version" /t REG_SZ /d "1.0" /f
+Reg.exe add "HKLM\Software\Policies\Microsoft\Windows\QoS\%%i" /v "Protocol" /t REG_SZ /d "*" /f
+Reg.exe add "HKLM\Software\Policies\Microsoft\Windows\QoS\%%i" /v "Local Port" /t REG_SZ /d "*" /f
+Reg.exe add "HKLM\Software\Policies\Microsoft\Windows\QoS\%%i" /v "Local IP" /t REG_SZ /d "*" /f
+Reg.exe add "HKLM\Software\Policies\Microsoft\Windows\QoS\%%i" /v "Local IP Prefix Length" /t REG_SZ /d "*" /f
+Reg.exe add "HKLM\Software\Policies\Microsoft\Windows\QoS\%%i" /v "Remote Port" /t REG_SZ /d "*" /f
+Reg.exe add "HKLM\Software\Policies\Microsoft\Windows\QoS\%%i" /v "Remote IP" /t REG_SZ /d "*" /f
+Reg.exe add "HKLM\Software\Policies\Microsoft\Windows\QoS\%%i" /v "Remote IP Prefix Length" /t REG_SZ /d "*" /f
+Reg.exe add "HKLM\Software\Policies\Microsoft\Windows\QoS\%%i" /v "DSCP Value" /t REG_SZ /d "46" /f
+Reg.exe add "HKLM\Software\Policies\Microsoft\Windows\QoS\%%i" /v "Throttle Rate" /t REG_SZ /d "-1" /f
+pause
+cls
+goto menu
+
+
+
+
+
+
+:Valorant Boost
+for %%i in (ValorantClient-Win64-Shipping.exe) do (
+    Reg.exe add "HKLM\Software\Policies\Microsoft\Windows\QoS\%%i" /v "Application Name" /t REG_SZ /d "%%i.exe" /f
+    Reg.exe add "HKLM\Software\Policies\Microsoft\Windows\QoS\%%i" /v "Version" /t REG_SZ /d "1.0" /f
+    Reg.exe add "HKLM\Software\Policies\Microsoft\Windows\QoS\%%i" /v "Protocol" /t REG_SZ /d "*" /f
+    Reg.exe add "HKLM\Software\Policies\Microsoft\Windows\QoS\%%i" /v "Local Port" /t REG_SZ /d "*" /f
+    Reg.exe add "HKLM\Software\Policies\Microsoft\Windows\QoS\%%i" /v "Local IP" /t REG_SZ /d "*" /f
+    Reg.exe add "HKLM\Software\Policies\Microsoft\Windows\QoS\%%i" /v "Local IP Prefix Length" /t REG_SZ /d "*" /f
+    Reg.exe add "HKLM\Software\Policies\Microsoft\Windows\QoS\%%i" /v "Remote Port" /t REG_SZ /d "*" /f
+    Reg.exe add "HKLM\Software\Policies\Microsoft\Windows\QoS\%%i" /v "Remote IP" /t REG_SZ /d "*" /f
+    Reg.exe add "HKLM\Software\Policies\Microsoft\Windows\QoS\%%i" /v "Remote IP Prefix Length" /t REG_SZ /d "*" /f
+    Reg.exe add "HKLM\Software\Policies\Microsoft\Windows\QoS\%%i" /v "DSCP Value" /t REG_SZ /d "46" /f
+    Reg.exe add "HKLM\Software\Policies\Microsoft\Windows\QoS\%%i" /v "Throttle Rate" /t REG_SZ /d "-1" /f
+)
+timeout /t 1 /nobreak > nul
+Reg.exe add "HKLM\SOFTWARE\Microsoft\Windows NT\CurrentVersion\Image File Execution Options\ValorantClient-Win64-Shipping.exe\PerfOptions" /v "CpuPriorityClass" /t REG_DWORD /d "8" /f
+Reg.exe add "HKLM\SOFTWARE\Microsoft\Windows NT\CurrentVersion\Image File Execution Options\ValorantClient-Win64-Shipping.exe\PerfOptions" /v "GpuPriorityClass" /t REG_DWORD /d "8" /f
+Reg.exe add "HKLM\SOFTWARE\Microsoft\Windows NT\CurrentVersion\Image File Execution Options\ValorantClient-Win64-Shipping.exe\PerfOptions" /v "CpuPriority" /t REG_DWORD /d "42" /f
+Reg.exe add "HKLM\SOFTWARE\Microsoft\Windows NT\CurrentVersion\Image File Execution Options\ValorantClient-Win64-Shipping.exe\PerfOptions" /v "GpuPriority" /t REG_DWORD /d "42" /f
+Reg.exe add "HKLM\SOFTWARE\Microsoft\Windows NT\CurrentVersion\Image File Execution Options\ValorantClient-Win64-Shipping.exe\PerfOptions" /v "IoPriority" /t REG_DWORD /d "8" /f
+Reg.exe add "HKLM\SOFTWARE\Microsoft\Windows NT\CurrentVersion\Image File Execution Options\ValorantClient-Win64-Shipping.exe\PerfOptions" /v "Clock Rate" /t REG_DWORD /d "65536" /f
+Reg.exe add "HKLM\SOFTWARE\Microsoft\Windows NT\CurrentVersion\Image File Execution Options\ValorantClient-Win64-Shipping.exe\PerfOptions" /v "Affinity" /t REG_DWORD /d "0" /f
+Reg.exe add "HKLM\SOFTWARE\Microsoft\Windows NT\CurrentVersion\Image File Execution Options\ValorantClient-Win64-Shipping.exe\PerfOptions" /v "CpuThreadPriority" /t REG_DWORD /d "8" /f
+Reg.exe add "HKLM\SOFTWARE\Microsoft\Windows NT\CurrentVersion\Image File Execution Options\ValorantClient-Win64-Shipping.exe\PerfOptions" /v "CpuPriorityControl" /t REG_DWORD /d "1" /f
+Reg.exe add "HKLM\SOFTWARE\Microsoft\Windows NT\CurrentVersion\Image File Execution Options\ValorantClient-Win64-Shipping.exe\PerfOptions" /v "CpuThreadCount" /t REG_DWORD /d "8" /f
+Reg.exe add "HKLM\SOFTWARE\Microsoft\Windows NT\CurrentVersion\Image File Execution Options\ValorantClient-Win64-Shipping.exe\PerfOptions" /v "PowerThrottlingOff" /t REG_DWORD /d "1" /f
+Reg.exe add "HKLM\SOFTWARE\Microsoft\Windows NT\CurrentVersion\Image File Execution Options\ValorantClient-Win64-Shipping.exe\PerfOptions" /v "CpuPrioritySeperation" /t REG_DWORD /d "0" /f
+Reg.exe add "HKLM\SOFTWARE\Microsoft\Windows NT\CurrentVersion\Image File Execution Options\ValorantClient-Win64-Shipping.exe\PerfOptions" /v "RMHdcpKeyGlobZero" /t REG_DWORD /d "1" /f
+Reg.exe add "HKLM\SOFTWARE\Microsoft\Windows NT\CurrentVersion\Image File Execution Options\ValorantClient-Win64-Shipping.exe\PerfOptions" /v "PowerLimitEnabled" /t REG_DWORD /d "1" /f
+Reg.exe add "HKLM\SOFTWARE\Microsoft\Windows NT\CurrentVersion\Image File Execution Options\ValorantClient-Win64-Shipping.exe\PerfOptions" /v "Priority" /t REG_DWORD /d "6" /f
+Reg.exe add "HKLM\SOFTWARE\Microsoft\Windows NT\CurrentVersion\Image File Execution Options\ValorantClient-Win64-Shipping.exe\PerfOptions" /v "SystemResponsiveness" /t REG_DWORD /d "0" /f
+Reg.exe add "HKLM\SOFTWARE\Microsoft\Windows NT\CurrentVersion\Image File Execution Options\ValorantClient-Win64-Shipping.exe\PerfOptions" /v "GPU Priority" /t REG_DWORD /d "8" /f
+Reg.exe add "HKLM\SOFTWARE\Microsoft\Windows NT\CurrentVersion\Image File Execution Options\ValorantClient-Win64-Shipping.exe\PerfOptions" /v "IOPriorityClass" /t REG_DWORD /d "0" /f
+Reg.exe add "HKLM\SOFTWARE\Microsoft\Windows NT\CurrentVersion\Image File Execution Options\ValorantClient-Win64-Shipping.exe\PerfOptions" /v "MaximumPerformanceEnabled" /t REG_DWORD /d "1" /f
+Reg.exe add "HKLM\SOFTWARE\Microsoft\Windows NT\CurrentVersion\Image File Execution Options\ValorantClient-Win64-Shipping.exe\PerfOptions" /v "MaxPerformance" /t REG_DWORD /d "256" /f
+Reg.exe add "HKLM\SOFTWARE\Microsoft\Windows NT\CurrentVersion\Image File Execution Options\ValorantClient-Win64-Shipping.exe\PerfOptions" /v "LowestPerformance" /t REG_DWORD /d "256" /f
+Reg.exe add "HKLM\SOFTWARE\Microsoft\Windows NT\CurrentVersion\Image File Execution Options\ValorantClient-Win64-Shipping.exe\PerfOptions" /v "MinimumPerformanceEnabled" /t REG_DWORD /d "0" /f
+Reg.exe add "HKLM\SOFTWARE\Microsoft\Windows NT\CurrentVersion\Image File Execution Options\ValorantClient-Win64-Shipping.exe\PerfOptions" /v "Io Priority" /t REG_DWORD /d "8" /f
+Reg.exe add "HKLM\SOFTWARE\Microsoft\Windows NT\CurrentVersion\Image File Execution Options\ValorantClient-Win64-Shipping.exe\PerfOptions" /v "HBFlagsSwitch" /t REG_DWORD /d "1" /f
+Reg.exe add "HKLM\SOFTWARE\Microsoft\Windows NT\CurrentVersion\Image File Execution Options\ValorantClient-Win64-Shipping.exe\PerfOptions" /v "HiberbootEnabled" /t REG_DWORD /d "0" /f
+Reg.exe add "HKLM\SOFTWARE\Microsoft\Windows NT\CurrentVersion\Image File Execution Options\ValorantClient-Win64-Shipping.exe\PerfOptions" /v "PowerSettingProfile" /t REG_DWORD /d "0" /f
+Reg.exe add "HKLM\SOFTWARE\Microsoft\Windows NT\CurrentVersion\Image File Execution Options\ValorantClient-Win64-Shipping.exe\PerfOptions" /v "SleepStudyDeviceAccountingLevel" /t REG_DWORD /d "4" /f
+Reg.exe add "HKLM\SOFTWARE\Microsoft\Windows NT\CurrentVersion\Image File Execution Options\ValorantClient-Win64-Shipping.exe\PerfOptions" /v "WatchdogResumeTimeout" /t REG_DWORD /d "120" /f
+Reg.exe add "HKLM\SOFTWARE\Microsoft\Windows NT\CurrentVersion\Image File Execution Options\ValorantClient-Win64-Shipping.exe\PerfOptions" /v "WatchdogSleepTimeout" /t REG_DWORD /d "300" /f
+Reg.exe add "HKLM\SOFTWARE\Microsoft\Windows NT\CurrentVersion\Image File Execution Options\ValorantClient-Win64-Shipping.exe\PerfOptions" /v "POSTTime" /t REG_DWORD /d "8323" /f
+Reg.exe add "HKLM\SOFTWARE\Microsoft\Windows NT\CurrentVersion\Image File Execution Options\ValorantClient-Win64-Shipping.exe\PerfOptions" /v "BootmgrUserInputTime" /t REG_DWORD /d "0" /f
+Reg.exe add "HKLM\SOFTWARE\Microsoft\Windows NT\CurrentVersion\Image File Execution Options\ValorantClient-Win64-Shipping.exe\PerfOptions" /v "FwPOSTTime" /t REG_DWORD /d "8323" /f
+Reg.exe add "HKLM\SOFTWARE\Microsoft\Windows NT\CurrentVersion\Image File Execution Options\ValorantClient-Win64-Shipping.exe\PerfOptions" /v "CoalescingTimerInterval" /t REG_DWORD /d "0" /f
+Reg.exe add "HKLM\SOFTWARE\Microsoft\Windows NT\CurrentVersion\Image File Execution Options\ValorantClient-Win64-Shipping.exe\PerfOptions" /v "GpuSpeed" /t REG_DWORD /d "256" /f
+Reg.exe add "HKLM\SOFTWARE\Microsoft\Windows NT\CurrentVersion\Image File Execution Options\ValorantClient-Win64-Shipping.exe\PerfOptions" /ve /t REG_SZ /d "True" /f
+Reg.exe add "HKLM\SOFTWARE\Microsoft\Windows NT\CurrentVersion\Image File Execution Options\ValorantClient-Win64-Shipping.exe\PerfOptions" /v "CpuCoresAlways" /t REG_DWORD /d "18" /f
+Reg.exe add "HKLM\SOFTWARE\Microsoft\Windows NT\CurrentVersion\Image File Execution Options\ValorantClient-Win64-Shipping.exe\PerfOptions" /v "CpuUtilization" /t REG_DWORD /d "256" /f
+Reg.exe add "HKLM\SOFTWARE\Microsoft\Windows NT\CurrentVersion\Image File Execution Options\ValorantClient-Win64-Shipping.exe\PerfOptions" /v "LatencyPerformance" /t REG_DWORD /d "256" /f
+Reg.exe add "HKLM\SOFTWARE\Microsoft\Windows NT\CurrentVersion\Image File Execution Options\ValorantClient-Win64-Shipping.exe\PerfOptions" /v "GpuPerformance" /t REG_DWORD /d "256" /f
+Reg.exe add "HKLM\SOFTWARE\Microsoft\Windows NT\CurrentVersion\Image File Execution Options\ValorantClient-Win64-Shipping.exe\PerfOptions" /v "RenderingSpread" /t REG_DWORD /d "0" /f
+Reg.exe add "HKLM\SOFTWARE\Microsoft\Windows NT\CurrentVersion\Image File Execution Options\ValorantClient-Win64-Shipping.exe\PerfOptions" /v "RenderingPerformance" /t REG_DWORD /d "256" /f
+Reg.exe add "HKLM\SOFTWARE\Microsoft\Windows NT\CurrentVersion\Image File Execution Options\ValorantClient-Win64-Shipping.exe\PerfOptions" /v "LatencySpread" /t REG_DWORD /d "0" /f
+Reg.exe add "HKLM\SOFTWARE\Microsoft\Windows NT\CurrentVersion\Image File Execution Options\ValorantClient-Win64-Shipping.exe\PerfOptions" /v "RenderingPriority" /t REG_DWORD /d "8" /f
+Reg.exe add "HKLM\SOFTWARE\Microsoft\Windows NT\CurrentVersion\Image File Execution Options\ValorantClient-Win64-Shipping.exe\PerfOptions" /v "LatencyPriority" /t REG_DWORD /d "8" /f
+Reg.exe add "HKLM\SOFTWARE\Microsoft\Windows NT\CurrentVersion\Image File Execution Options\ValorantClient-Win64-Shipping.exe\PerfOptions" /v "CpuSpread" /t REG_DWORD /d "0" /f
+Reg.exe add "HKLM\SOFTWARE\Microsoft\Windows NT\CurrentVersion\Image File Execution Options\ValorantClient-Win64-Shipping.exe\PerfOptions" /v "GpuRenderingPriority" /t REG_DWORD /d "8" /f
+Reg.exe add "HKLM\SOFTWARE\Microsoft\Windows NT\CurrentVersion\Image File Execution Options\ValorantClient-Win64-Shipping.exe\PerfOptions" /v "SpreadPriority" /t REG_DWORD /d "1" /f
+Reg.exe add "HKLM\SOFTWARE\Microsoft\Windows NT\CurrentVersion\Image File Execution Options\ValorantClient-Win64-Shipping.exe\PerfOptions" /v "GpuMax" /t REG_DWORD /d "256" /f
+Reg.exe add "HKLM\SOFTWARE\Microsoft\Windows NT\CurrentVersion\Image File Execution Options\ValorantClient-Win64-Shipping.exe\PerfOptions" /v "MinPerformance" /t REG_DWORD /d "256" /f
+Reg.exe add "HKLM\SOFTWARE\Microsoft\Windows NT\CurrentVersion\Image File Execution Options\ValorantClient-Win64-Shipping.exe\PerfOptions" /v "PerformancePriority" /t REG_DWORD /d "8" /f
+Reg.exe add "HKLM\SOFTWARE\Microsoft\Windows NT\CurrentVersion\Image File Execution Options\ValorantClient-Win64-Shipping.exe\PerfOptions" /v "PerformanceSpread" /t REG_DWORD /d "0" /f
+Reg.exe add "HKLM\SOFTWARE\Microsoft\Windows NT\CurrentVersion\Image File Execution Options\ValorantClient-Win64-Shipping.exe\PerfOptions" /v "GpuMaxPerformance" /t REG_DWORD /d "256" /f
+Reg.exe add "HKLM\SOFTWARE\Microsoft\Windows NT\CurrentVersion\Image File Execution Options\ValorantClient-Win64-Shipping.exe\PerfOptions" /v "CpuMaxPerformance" /t REG_DWORD /d "256" /f
+Reg.exe add "HKLM\SOFTWARE\Microsoft\Windows NT\CurrentVersion\Image File Execution Options\ValorantClient-Win64-Shipping.exe\PerfOptions" /v "GpuAccelerating" /t REG_DWORD /d "256" /f
+Reg.exe add "HKLM\SOFTWARE\Microsoft\Windows NT\CurrentVersion\Image File Execution Options\ValorantClient-Win64-Shipping.exe\PerfOptions" /v "DisableHWAcceleration" /t REG_DWORD /d "0" /f
+Reg.exe add "HKLM\SOFTWARE\Microsoft\Windows NT\CurrentVersion\Image File Execution Options\ValorantClient-Win64-Shipping.exe\PerfOptions" /v "MaxMultisampleSize" /t REG_DWORD /d "0" /f
+Reg.exe add "HKLM\SOFTWARE\Microsoft\Windows NT\CurrentVersion\Image File Execution Options\ValorantClient-Win64-Shipping.exe\PerfOptions" /v "HwSchMode" /t REG_DWORD /d "2" /f
+Reg.exe add "HKLM\SOFTWARE\Microsoft\Windows NT\CurrentVersion\Image File Execution Options\ValorantClient-Win64-Shipping.exe\PerfOptions" /v "GpuThrottling" /t REG_DWORD /d "0" /f
+Reg.exe add "HKLM\SOFTWARE\Microsoft\Windows NT\CurrentVersion\Image File Execution Options\ValorantClient-Win64-Shipping.exe\PerfOptions" /v "GpuStutter" /t REG_DWORD /d "0" /f
+Reg.exe add "HKLM\SOFTWARE\Microsoft\Windows NT\CurrentVersion\Image File Execution Options\ValorantClient-Win64-Shipping.exe\PerfOptions" /v "FadeIo" /t REG_DWORD /d "24" /f
+Reg.exe add "HKLM\SOFTWARE\Microsoft\Windows NT\CurrentVersion\Image File Execution Options\ValorantClient-Win64-Shipping.exe\PerfOptions" /v "GpuClockSwitchLatency" /t REG_DWORD /d "1" /f
+Reg.exe add "HKLM\SOFTWARE\Microsoft\Windows NT\CurrentVersion\Image File Execution Options\ValorantClient-Win64-Shipping.exe\PerfOptions" /v "UseReferenceRasterizer" /t REG_DWORD /d "0" /f
+Reg.exe add "HKLM\SOFTWARE\Microsoft\Windows NT\CurrentVersion\Image File Execution Options\ValorantClient-Win64-Shipping.exe\PerfOptions" /v "EnableHWAcceleration" /t REG_DWORD /d "1" /f
+Reg.exe add "HKLM\SOFTWARE\Microsoft\Windows NT\CurrentVersion\Image File Execution Options\ValorantClient-Win64-Shipping.exe\PerfOptions" /v "SmoothBrightnessDefaultEnable" /t REG_DWORD /d "0" /f
+Reg.exe add "HKLM\SOFTWARE\Microsoft\Windows NT\CurrentVersion\Image File Execution Options\ValorantClient-Win64-Shipping.exe\PerfOptions" /v "SmoothBrightnessDefaultDisable" /t REG_DWORD /d "1" /f
+Reg.exe add "HKLM\SOFTWARE\Microsoft\Windows NT\CurrentVersion\Image File Execution Options\ValorantClient-Win64-Shipping.exe\PerfOptions" /v "EnableRenderingSlowDown" /t REG_DWORD /d "0" /f
+Reg.exe add "HKLM\SOFTWARE\Microsoft\Windows NT\CurrentVersion\Image File Execution Options\ValorantClient-Win64-Shipping.exe\PerfOptions" /v "EnableRenderingCache" /t REG_DWORD /d "0" /f
+Reg.exe add "HKLM\SOFTWARE\Microsoft\Windows NT\CurrentVersion\Image File Execution Options\ValorantClient-Win64-Shipping.exe\PerfOptions" /v "EnableRenderingPowerSlowDown" /t REG_DWORD /d "0" /f
+Reg.exe add "HKLM\SOFTWARE\Microsoft\Windows NT\CurrentVersion\Image File Execution Options\ValorantClient-Win64-Shipping.exe\PerfOptions" /v "EnablePowerSlowDown" /t REG_DWORD /d "0" /f
+Reg.exe add "HKLM\SOFTWARE\Microsoft\Windows NT\CurrentVersion\Image File Execution Options\ValorantClient-Win64-Shipping.exe\PerfOptions" /v "EnablePowerControlSlowDown" /t REG_DWORD /d "0" /f
+Reg.exe add "HKLM\SOFTWARE\Microsoft\Windows NT\CurrentVersion\Image File Execution Options\ValorantClient-Win64-Shipping.exe\PerfOptions" /v "DisableRenderingContextPreemption" /t REG_DWORD /d "1" /f
+Reg.exe add "HKLM\SOFTWARE\Microsoft\Windows NT\CurrentVersion\Image File Execution Options\ValorantClient-Win64-Shipping.exe\PerfOptions" /v "DisableRenderingPreemption" /t REG_DWORD /d "1" /f
+Reg.exe add "HKLM\SOFTWARE\Microsoft\Windows NT\CurrentVersion\Image File Execution Options\ValorantClient-Win64-Shipping.exe\PerfOptions" /v "DisableFGBoostDecay" /t REG_DWORD /d "1" /f
+Reg.exe add "HKLM\SOFTWARE\Microsoft\Windows NT\CurrentVersion\Image File Execution Options\ValorantClient-Win64-Shipping.exe\PerfOptions" /v "IsLowPriority" /t REG_DWORD /d "0" /f
+Reg.exe add "HKLM\SOFTWARE\Microsoft\Windows NT\CurrentVersion\Image File Execution Options\ValorantClient-Win64-Shipping.exe\PerfOptions" /v "IsRenderingLowPriority" /t REG_DWORD /d "0" /f
+Reg.exe add "HKLM\SOFTWARE\Microsoft\Windows NT\CurrentVersion\Image File Execution Options\ValorantClient-Win64-Shipping.exe\PerfOptions" /v "RenderingBasePriority" /t REG_DWORD /d "130" /f
+Reg.exe add "HKLM\SOFTWARE\Microsoft\Windows NT\CurrentVersion\Image File Execution Options\ValorantClient-Win64-Shipping.exe\PerfOptions" /v "RenderingOverTargetPriority" /t REG_DWORD /d "80" /f
+Reg.exe add "HKLM\SOFTWARE\Microsoft\Windows NT\CurrentVersion\Image File Execution Options\ValorantClient-Win64-Shipping.exe\PerfOptions" /v "RenderThrottlingOff" /t REG_DWORD /d "1" /f
+Reg.exe add "HKLM\SOFTWARE\Microsoft\Windows NT\CurrentVersion\Image File Execution Options\ValorantClient-Win64-Shipping.exe\PerfOptions" /v "EnableMidRenderingPreemption" /t REG_DWORD /d "0" /f
+Reg.exe add "HKLM\SOFTWARE\Microsoft\Windows NT\CurrentVersion\Image File Execution Options\ValorantClient-Win64-Shipping.exe\PerfOptions" /v "RenderingPowerSteeringEnable" /t REG_DWORD /d "0" /f
+Reg.exe add "HKLM\SOFTWARE\Microsoft\Windows NT\CurrentVersion\Image File Execution Options\ValorantClient-Win64-Shipping.exe\PerfOptions" /v "PowerSavingVsyncOn" /t REG_DWORD /d "0" /f
+Reg.exe add "HKLM\SOFTWARE\Microsoft\Windows NT\CurrentVersion\Image File Execution Options\ValorantClient-Win64-Shipping.exe\PerfOptions" /v "HwSchedMode" /t REG_DWORD /d "2" /f
+Reg.exe add "HKLM\SOFTWARE\Microsoft\Windows NT\CurrentVersion\Image File Execution Options\ValorantClient-Win64-Shipping.exe\PerfOptions" /v "UnlimitedPerformance" /t REG_DWORD /d "1" /f
+Reg.exe add "HKLM\SOFTWARE\Microsoft\Windows NT\CurrentVersion\Image File Execution Options\ValorantClient-Win64-Shipping.exe\PerfOptions" /v "SmoothStutterEnabled" /t REG_DWORD /d "0" /f
+Reg.exe add "HKLM\SOFTWARE\Microsoft\Windows NT\CurrentVersion\Image File Execution Options\ValorantClient-Win64-Shipping.exe\PerfOptions" /v "EnableGpuTempData" /t REG_DWORD /d "0" /f
+Reg.exe add "HKLM\SOFTWARE\Microsoft\Windows NT\CurrentVersion\Image File Execution Options\ValorantClient-Win64-Shipping.exe\PerfOptions" /v "EnableGpuCashing" /t REG_DWORD /d "0" /f
+Reg.exe add "HKLM\SOFTWARE\Microsoft\Windows NT\CurrentVersion\Image File Execution Options\ValorantClient-Win64-Shipping.exe\PerfOptions" /v "EnableGpuSlowDown" /t REG_DWORD /d "0" /f
+Reg.exe add "HKLM\SOFTWARE\Microsoft\Windows NT\CurrentVersion\Image File Execution Options\ValorantClient-Win64-Shipping.exe\PerfOptions" /v "PPMEnabled" /t REG_DWORD /d "0" /f
+Reg.exe add "HKLM\SOFTWARE\Microsoft\Windows NT\CurrentVersion\Image File Execution Options\ValorantClient-Win64-Shipping.exe\PerfOptions" /v "EnableGpuPowerControl" /t REG_DWORD /d "0" /f
+Reg.exe add "HKLM\SOFTWARE\Microsoft\Windows NT\CurrentVersion\Image File Execution Options\ValorantClient-Win64-Shipping.exe\PerfOptions" /v "EnableGpuPreemption" /t REG_DWORD /d "0" /f
+Reg.exe add "HKLM\SOFTWARE\Microsoft\Windows NT\CurrentVersion\Image File Execution Options\ValorantClient-Win64-Shipping.exe\PerfOptions" /v "GpuIdleLatencyEnabled" /t REG_DWORD /d "0" /f
+Reg.exe add "HKLM\SOFTWARE\Microsoft\Windows NT\CurrentVersion\Image File Execution Options\ValorantClient-Win64-Shipping.exe\PerfOptions" /v "GpuIdleEnabled" /t REG_DWORD /d "0" /f
+Reg.exe add "HKLM\SOFTWARE\Microsoft\Windows NT\CurrentVersion\Image File Execution Options\ValorantClient-Win64-Shipping.exe\PerfOptions" /v "GpuPreemptionEnabled" /t REG_DWORD /d "0" /f
+Reg.exe add "HKLM\SOFTWARE\Microsoft\Windows NT\CurrentVersion\Image File Execution Options\ValorantClient-Win64-Shipping.exe\PerfOptions" /v "GpuBackgoundTaskPriority" /t REG_DWORD /d "0" /f
+Reg.exe add "HKLM\SOFTWARE\Microsoft\Windows NT\CurrentVersion\Image File Execution Options\ValorantClient-Win64-Shipping.exe\PerfOptions" /v "GpuRenderingPriority" /t REG_DWORD /d "3" /f
+Reg.exe add "HKLM\SOFTWARE\Microsoft\Windows NT\CurrentVersion\Image File Execution Options\ValorantClient-Win64-Shipping.exe\PerfOptions" /v "GpuBackgoundTaskLimit" /t REG_DWORD /d "0" /f
+Reg.exe add "HKLM\SOFTWARE\Microsoft\Windows NT\CurrentVersion\Image File Execution Options\ValorantClient-Win64-Shipping.exe\PerfOptions" /v "PowerSavingBackgoundTaskEnabled" /t REG_DWORD /d "1" /f
+Reg.exe add "HKLM\SOFTWARE\Microsoft\Windows NT\CurrentVersion\Image File Execution Options\ValorantClient-Win64-Shipping.exe\PerfOptions" /v "RenderingSmoothStutterEnabled" /t REG_DWORD /d "0" /f
+Reg.exe add "HKLM\SOFTWARE\Microsoft\Windows NT\CurrentVersion\Image File Execution Options\ValorantClient-Win64-Shipping.exe\PerfOptions" /v "RenderingStutterEnabled" /t REG_DWORD /d "0" /f
+Reg.exe add "HKLM\SOFTWARE\Microsoft\Windows NT\CurrentVersion\Image File Execution Options\ValorantClient-Win64-Shipping.exe\PerfOptions" /v "GpuRenderingLatencyEnabled" /t REG_DWORD /d "0" /f
+Reg.exe add "HKLM\SOFTWARE\Microsoft\Windows NT\CurrentVersion\Image File Execution Options\ValorantClient-Win64-Shipping.exe\PerfOptions" /v "GpuRenderingPriorityForBackgoundTask" /t REG_DWORD /d "0" /f
+Reg.exe add "HKLM\SOFTWARE\Microsoft\Windows NT\CurrentVersion\Image File Execution Options\ValorantClient-Win64-Shipping.exe\PerfOptions" /v "PowerSavingRenderingEnabled" /t REG_DWORD /d "0" /f
+Reg.exe add "HKLM\SOFTWARE\Microsoft\Windows NT\CurrentVersion\Image File Execution Options\ValorantClient-Win64-Shipping.exe\PerfOptions" /v "GpuClockSpeed" /t REG_DWORD /d "65536" /f
+Reg.exe add "HKLM\SOFTWARE\Microsoft\Windows NT\CurrentVersion\Image File Execution Options\ValorantClient-Win64-Shipping.exe\PerfOptions" /v "GpuRenderingClockSpeed" /t REG_DWORD /d "65536" /f
+Reg.exe add "HKLM\SOFTWARE\Microsoft\Windows NT\CurrentVersion\Image File Execution Options\ValorantClient-Win64-Shipping.exe\PerfOptions" /v "UseBestResolution" /t REG_DWORD /d "0" /f
+Reg.exe add "HKLM\SOFTWARE\Microsoft\Windows NT\CurrentVersion\Image File Execution Options\ValorantClient-Win64-Shipping.exe\PerfOptions" /v "SmoothResolutionEnabled" /t REG_DWORD /d "1" /f
+Reg.exe add "HKLM\SOFTWARE\Microsoft\Windows NT\CurrentVersion\Image File Execution Options\ValorantClient-Win64-Shipping.exe\PerfOptions" /v "TVSupportEnabled" /t REG_DWORD /d "0" /f
+Reg.exe add "HKLM\SOFTWARE\Microsoft\Windows NT\CurrentVersion\Image File Execution Options\ValorantClient-Win64-Shipping.exe\PerfOptions" /v "GpuThrottleRate" /t REG_DWORD /d "65536" /f
+Reg.exe add "HKLM\SOFTWARE\Microsoft\Windows NT\CurrentVersion\Image File Execution Options\ValorantClient-Win64-Shipping.exe\PerfOptions" /v "SwapEffectUpgradeCache" /t REG_DWORD /d "1" /f
+Reg.exe add "HKLM\SOFTWARE\Microsoft\Windows NT\CurrentVersion\Image File Execution Options\ValorantClient-Win64-Shipping.exe\PerfOptions" /v "CpuPriorityClass" /t REG_DWORD /d "3" /f
+Reg.exe add "HKLM\SOFTWARE\Microsoft\Windows NT\CurrentVersion\Image File Execution Options\ValorantClient-Win64-Shipping.exe\PerfOptions" /v "IoPriority" /t REG_DWORD /d "3" /f
+Reg.exe add "HKLM\SOFTWARE\Microsoft\Windows NT\CurrentVersion\Image File Execution Options\ValorantClient-Win64-Shipping.exe" /v "UseLargePages" /t REG_DWORD /d "1" /f
+pause
+cls
+goto menu
+
+
+
+:Boost Roblox
+Reg.exe add "HKCU\Software\Roblox" /v "DisableEffect" /t REG_QWORD /d "0x0100000000000000" /f
+Reg.exe add "HKCU\Software\Roblox" /v "Fullscreen" /t REG_QWORD /d "0x0100000000000000" /f
+Reg.exe add "HKCU\Software\Roblox" /v "pingset" /t REG_QWORD /d "0x0100000000000000" /f
+:: ------------------------------------------------------------------------------------------------------------------------------------------------
+Reg.exe add "HKCU\Software\Roblox" /v "start" /t REG_MULTI_SZ /d "setlocal" /f
+Reg.exe add "HKCU\Software\Roblox" /v "enableGamemode" /t REG_SZ /d "1" /f
+Reg.exe add "HKCU\Software\Roblox" /v "ping" /t REG_SZ /d "set 30>50" /f
+Reg.exe add "HKCU\Software\Roblox" /v "Zerpclick" /t REG_BINARY /d "144520" /f
+Reg.exe add "HKCU\Software\Roblox\RobloxStudio\CustomColor" /v "0" /t REG_BINARY /d "4000560061007200690061006e007400280000000000000043000100ff00ff00ff00ff00ff00ff00ff00ff00000000002200" /f
+Reg.exe add "HKCU\Software\Roblox\RobloxStudio\CustomColor" /v "1" /t REG_BINARY /d "4000560061007200690061006e007400280000000000000043000100ff00ff00ff00ff00ff00ff00ff00ff00000000002900" /f
+Reg.exe add "HKCU\Software\Roblox\RobloxStudio\CustomColor" /v "2" /t REG_BINARY /d "4000560061007200690061006e007400280000000000000043000100ff00ff00ff00ff00ff00ff00ff00ff00000000002300" /f
+Reg.exe add "HKCU\Software\Roblox\RobloxStudio\CustomColor" /v "3" /t REG_BINARY /d "4000560061007200690061006e007400280000000000000043000100ff00ff00ff00ff00ff00ff00ff00ff00000000002900" /f
+Reg.exe add "HKCU\Software\Roblox\RobloxStudio\CustomColor" /v "4" /t REG_BINARY /d "4000560061007200690061006e007400280000000000000043000100ff00ff00ff00ff00ff00ff00ff00ff00000000002900" /f
+Reg.exe add "HKCU\Software\Roblox\RobloxStudio\CustomColor" /v "5" /t REG_BINARY /d "4000560061007200690061006e007400280000000000000043000100ff00ff00ff00ff00ff00ff00ff00ff00000000002900" /f
+Reg.exe add "HKCU\Software\Roblox\RobloxStudio\CustomColor" /v "6" /t REG_BINARY /d "4000560061007200690061006e007400280000000000000043000100ff00ff00ff00ff00ff00ff00ff00ff00000000002600" /f
+Reg.exe add "HKCU\Software\Roblox\RobloxStudio\CustomColor" /v "7" /t REG_BINARY /d "4000560061007200690061006e007400280000000000000043000100ff00ff00ff00ff00ff00ff00ff00ff00000000002900" /f
+Reg.exe add "HKCU\Software\Roblox\RobloxStudio\CustomColor" /v "8" /t REG_BINARY /d "4000560061007200690061006e007400280000000000000043000100ff00ff00ff00ff00ff00ff00ff00ff00000000002900" /f
+Reg.exe add "HKCU\Software\Roblox\RobloxStudio\CustomColor" /v "9" /t REG_BINARY /d "04000560061007200690061006e007400280000000000000043000100ff00ff00ff00ff00ff00ff00ff00ff000000000029700" /f
+Reg.exe add "HKCU\Software\Roblox\RobloxStudio\CustomColor" /v "10" /t REG_BINARY /d "4000560061007200690061006e007400280000000000000043000100ff00ff00ff00ff00ff00ff00ff00ff00000000002900" /f
+Reg.exe add "HKCU\Software\Roblox\RobloxStudio\CustomColor" /v "11" /t REG_BINARY /d "4000560061007200690061006e007400280000000000000043000100ff00ff00ff00ff00ff00ff00ff00ff00000000002900" /f
+Reg.exe add "HKCU\Software\Roblox\RobloxStudio\CustomColor" /v "12" /t REG_BINARY /d "4000560061007200690061006e007400280000000000000043000100ff00ff00ff00ff00ff00ff00ff00ff00000000002400" /f
+Reg.exe add "HKCU\Software\Roblox\RobloxStudio\CustomColor" /v "13" /t REG_BINARY /d "4000560061007200690061006e007400280000000000000043000100ff00ff00ff00ff00ff00ff00ff00ff00000000002100" /f
+Reg.exe add "HKCU\Software\Roblox\RobloxStudio\CustomColor" /v "14" /t REG_BINARY /d "4000560061007200690061006e007400280000000000000043000100ff00ff00ff00ff00ff00ff00ff00ff00000000001200" /f
+Reg.exe add "HKCU\Software\Roblox\RobloxStudio\CustomColor" /v "15" /t REG_BINARY /d "4000560061007200690061006e007400280000000000000043000100ff00ff00ff00ff00ff00ff00ff00ff00000000002000" /f
+Reg.exe add "HKCU\Software\Roblox\RobloxStudio\CustomColor" /v "uibing" /t REG_BINARY /d "bbb12bb43b3b533b35b3953b632b536b35354b53436b47b324b342b634354632b6444225364343b34643423436b3435363434336b34353b435343b343b53b43b5b3b43b5b3bb3b53b5b3b5b3b5b35b3b545b4b65b6b54b45b45b654b6b54b54b54b6b546b54b6b546b54b6b546b54b63b5b25b436b43b54b5b325b23b5b2b43b3b5b6b54b6b6b54b54b76b7b67b54bb523b5b235b43b43bb43b43b65bb65b6b54b654b6b546b54b654bb6b657b5b54b54bbb45b45b45bb54b4bbbbebbebb34bb4b5b54b45bb54b54b54b54b0" /f
+Reg.exe add "HKCU\Software\Roblox\RobloxStudio\CustomColor" /v "Players" /t REG_EXPAND_SZ /d "head Size = 400 (aimhead == RobloxPlayer)" /f
+Reg.exe add "HKCU\Software\Roblox\RobloxStudio\CustomColor" /v "Graphconfig" /t REG_BINARY /d "222434543454444493823213303539222222225933333333333333333333329532852035820358212b249324323924328523432432b5243293282432b4325329432539243284325b2520" /f
+Reg.exe add "HKCU\Software\Roblox\RobloxStudio\CustomColor" /v "GrapconfigHead" /t REG_EXPAND_SZ /d "start Graph.exe start Graph.REGQWORD" /f
+Reg.exe add "HKCU\Software\Roblox\RobloxStudio\CustomColor" /v "Player" /t REG_MULTI_SZ /d "setspeed= 0 setlocal=1 sethttps=1 " /f
+Reg.exe add "HKCU\Software\Roblox\RobloxStudio\CustomColor" /v "Runhead" /t REG_EXPAND_SZ /d "runhead loop" /f
+Reg.exe add "HKCU\Software\Roblox\RobloxStudio\CustomColor" /v "exit" /t REG_EXPAND_SZ /d "exit killall" /f
+Reg.exe add "HKCU\Software\Roblox\RobloxStudio\CustomColor" /v "chat" /t REG_SZ /d "low set= loca31l" /f
+Reg.exe add "HKCU\Software\Roblox\RobloxStudio\CustomColor" /v "Boost" /t REG_BINARY /d "00d05ce00c020000305c50e00c02000030003200200028003200290000000000ffffffff00000000ffffffff00000000f0625432532542546453243253253320" /f
+Reg.exe add "HKCU\Software\Roblox\RobloxStudio\CustomColor" /v "startBoost" /t REG_DWORD /d "1" /f
+Reg.exe add "HKCU\Software\Roblox\RobloxStudio\CustomColor" /v "delayclicked" /t REG_BINARY /d "00d05ce00c02000070405de00c0200003000310020002800310029000000000038863773fe7f000030945ce00c020000000035353546352453264653634644000000000000000000000000000000000000000000000000000000000000000000000000000000" /f
+Reg.exe add "HKCU\Software\Roblox\RobloxStudio\LayoutSettings" /v "window_geometry_ribbon" /t REG_BINARY /d "400042007900740065004100720072006100790028000100d900d000cb0000000300000000000000000000002b0000000000000000000000000005002c00000000000200d8000000000000002c000000000000001f000000000005002b00000000000200d70000000000000000000000000000000000050056000000000000002c000000000000001f000000000005002b00000000000200d7002900" /f
+Reg.exe add "HKLM\SOFTWARE\1D0EC6DE-4A80-4CC3-A335-E6E41C951198\RobloxPlayerBata.exe" /v "Disablestart" /t REG_DWORD /d "0" /f
+cls
+Reg.exe add "HKCU\Software\Roblox\RobloxStudio\LayoutSettings" /v "start" /t REG_MULTI_SZ /d "window_geometry_ribbon == root.exe(reg.exe add window_geometry_ribbon)host.exe add(host.exewindow_geometry_ribbon)" /f
+pause
+:: -----------------------------------------------------  !!! Unsupported Reg Type Found !!!  -----------------------------------------------------
+REM ~ Reg.exe add "HKLM\SOFTWARE\1D0EC6DE-4A80-4CC3-A335-E6E41C951198\RobloxPlayerBata.exe" /v "start" /t REG_QWORD /d "0x0c00000000000000" /f
+:: ------------------------------------------------------------------------------------------------------------------------------------------------
+
+Reg.exe add "HKLM\SOFTWARE\1D0EC6DE-4A80-4CC3-A335-E6E41C951198\RobloxPlayerBata.exe" /v "Disablestart" /t REG_DWORD /d "1" /f
+Reg.exe add "HKLM\SOFTWARE\1D0EC6DE-4A80-4CC3-A335-E6E41C951198\RobloxPlayerBata.exe" /v "(Pro)" /t REG_SZ /d "echo off" /f
+Reg.exe add "HKLM\SOFTWARE\1D0EC6DE-4A80-4CC3-A335-E6E41C951198\RobloxPlayerBata.exe" /v "echo" /t REG_SZ /d "ping RobloxPlayerBeta.exe" /f
+:: -----------------------------------------------------  !!! Unsupported Reg Type Found !!!  -----------------------------------------------------
+REM ~ Reg.exe add "HKCU\SOFTWARE\Roblox\RobloxStudio\CustomColor" /v "bingui" /t REG_QWORD /d "0x0100000000000000" /f
+:: ------------------------------------------------------------------------------------------------------------------------------------------------
+Reg.exe add "HKCU\SOFTWARE\Roblox\RobloxStudio\LayoutSettings" /v "window_geometry_ribbon" /t REG_BINARY /d "400042007900740065004100720072006100790028000100d900d000cb0000000300000000000000000000002b0000000000000000000000000005002c00000000000200d8000000000000002c000000000000001f000000000005002b00000000000200d70000000000000000000000000000000000050056000000000000002c000000000000001f000000000005002b00000000000200d7002900" /f
+Reg.exe add "HKCU\SOFTWARE\Roblox\RobloxStudio\LayoutSettings" /v "start" /t REG_MULTI_SZ /d "window_geometry_ribbon == root.exe(reg.exe add window_geometry_ribbon)host.exe add(host.exewindow_geometry_ribbon)" /f
+Reg.exe add "HKCU\SOFTWARE\Roblox\RobloxStudio\CustomColor" /v "0" /t REG_BINARY /d "4000560061007200690061006e007400280000000000000043000100ff00ff00ff00ff00ff00ff00ff00ff00000000002200" /f
+Reg.exe add "HKCU\SOFTWARE\Roblox\RobloxStudio\CustomColor" /v "1" /t REG_BINARY /d "4000560061007200690061006e007400280000000000000043000100ff00ff00ff00ff00ff00ff00ff00ff00000000002900" /f
+Reg.exe add "HKCU\SOFTWARE\Roblox\RobloxStudio\CustomColor" /v "2" /t REG_BINARY /d "4000560061007200690061006e007400280000000000000043000100ff00ff00ff00ff00ff00ff00ff00ff00000000002300" /f
+Reg.exe add "HKCU\SOFTWARE\Roblox\RobloxStudio\CustomColor" /v "3" /t REG_BINARY /d "4000560061007200690061006e007400280000000000000043000100ff00ff00ff00ff00ff00ff00ff00ff00000000002900" /f
+Reg.exe add "HKCU\SOFTWARE\Roblox\RobloxStudio\CustomColor" /v "4" /t REG_BINARY /d "4000560061007200690061006e007400280000000000000043000100ff00ff00ff00ff00ff00ff00ff00ff00000000002900" /f
+Reg.exe add "HKCU\SOFTWARE\Roblox\RobloxStudio\CustomColor" /v "5" /t REG_BINARY /d "4000560061007200690061006e007400280000000000000043000100ff00ff00ff00ff00ff00ff00ff00ff00000000002900" /f
+Reg.exe add "HKCU\SOFTWARE\Roblox\RobloxStudio\CustomColor" /v "6" /t REG_BINARY /d "4000560061007200690061006e007400280000000000000043000100ff00ff00ff00ff00ff00ff00ff00ff00000000002600" /f
+Reg.exe add "HKCU\SOFTWARE\Roblox\RobloxStudio\CustomColor" /v "7" /t REG_BINARY /d "4000560061007200690061006e007400280000000000000043000100ff00ff00ff00ff00ff00ff00ff00ff00000000002900" /f
+Reg.exe add "HKCU\SOFTWARE\Roblox\RobloxStudio\CustomColor" /v "8" /t REG_BINARY /d "4000560061007200690061006e007400280000000000000043000100ff00ff00ff00ff00ff00ff00ff00ff00000000002900" /f
+Reg.exe add "HKCU\SOFTWARE\Roblox\RobloxStudio\CustomColor" /v "9" /t REG_BINARY /d "4000560061007200690061006e007400280000000000000043000100ff00ff00ff00ff00ff00ff00ff00ff000000000029700" /f
+Reg.exe add "HKCU\SOFTWARE\Roblox\RobloxStudio\CustomColor" /v "10" /t REG_BINARY /d "4000560061007200690061006e007400280000000000000043000100ff00ff00ff00ff00ff00ff00ff00ff00000000002900" /f
+Reg.exe add "HKCU\SOFTWARE\Roblox\RobloxStudio\CustomColor" /v "11" /t REG_BINARY /d "4000560061007200690061006e007400280000000000000043000100ff00ff00ff00ff00ff00ff00ff00ff00000000002900" /f
+Reg.exe add "HKCU\SOFTWARE\Roblox\RobloxStudio\CustomColor" /v "12" /t REG_BINARY /d "4000560061007200690061006e007400280000000000000043000100ff00ff00ff00ff00ff00ff00ff00ff00000000002400" /f
+Reg.exe add "HKCU\SOFTWARE\Roblox\RobloxStudio\CustomColor" /v "13" /t REG_BINARY /d "4000560061007200690061006e007400280000000000000043000100ff00ff00ff00ff00ff00ff00ff00ff00000000002100" /f
+Reg.exe add "HKCU\SOFTWARE\Roblox\RobloxStudio\CustomColor" /v "14" /t REG_BINARY /d "4000560061007200690061006e007400280000000000000043000100ff00ff00ff00ff00ff00ff00ff00ff00000000001200" /f
+Reg.exe add "HKCU\SOFTWARE\Roblox\RobloxStudio\CustomColor" /v "15" /t REG_BINARY /d "4000560061007200690061006e007400280000000000000043000100ff00ff00ff00ff00ff00ff00ff00ff00000000002000" /f
+Reg.exe add "HKCU\SOFTWARE\Roblox\RobloxStudio\CustomColor" /v "uibing" /t REG_BINARY /d "bbb12bb43b3b533b35b3953b632b536b35354b53436b47b324b342b634354632b6444225364343b34643423436b3435363434336b34353b435343b343b53b43b5b3b43b5b3bb3b53b5b3b5b3b5b35b3b545b4b65b6b54b45b45b654b6b54b54b54b6b546b54b6b546b54b6b546b54b63b5b25b436b43b54b5b325b23b5b2b43b3b5b6b54b6b6b54b54b76b7b67b54bb523b5b235b43b43bb43b43b65bb65b6b54b654b6b546b54b654bb6b657b5b54b54bbb45b45b45bb54b4bbbbebbebb34bb4b5b54b45bb54b54b54b54b0" /f
+:: -----------------------------------------------------  !!! Unsupported Reg Type Found !!!  -----------------------------------------------------
+REM ~ Reg.exe add "HKCU\SOFTWARE\Roblox\RobloxStudio\CustomColor" /v "bingui" /t REG_QWORD /d "0x0100000000000000" /f
+REM ~ Reg.exe add "HKCU\SOFTWARE\Roblox\RobloxStudio\CustomColor" /v "head" /t REG_QWORD /d "0x1000000000000000" /f
+REM ~ Reg.exe add "HKCU\SOFTWARE\Roblox\RobloxStudio\CustomColor" /v "Graph" /t REG_QWORD /d "0x1400000000000000" /f
+:: ------------------------------------------------------------------------------------------------------------------------------------------------
+Reg.exe add "HKCU\SOFTWARE\Roblox\RobloxStudio\CustomColor" /v "0" /t REG_BINARY /d "4000560061007200690061006e007400280000000000000043000100ff00ff00ff00ff00ff00ff00ff00ff00000000002200" /f
+Reg.exe add "HKCU\SOFTWARE\Roblox\RobloxStudio\CustomColor" /v "1" /t REG_BINARY /d "4000560061007200690061006e007400280000000000000043000100ff00ff00ff00ff00ff00ff00ff00ff00000000002900" /f
+Reg.exe add "HKCU\SOFTWARE\Roblox\RobloxStudio\CustomColor" /v "2" /t REG_BINARY /d "4000560061007200690061006e007400280000000000000043000100ff00ff00ff00ff00ff00ff00ff00ff00000000002300" /f
+Reg.exe add "HKCU\SOFTWARE\Roblox\RobloxStudio\CustomColor" /v "3" /t REG_BINARY /d "4000560061007200690061006e007400280000000000000043000100ff00ff00ff00ff00ff00ff00ff00ff00000000002900" /f
+Reg.exe add "HKCU\SOFTWARE\Roblox\RobloxStudio\CustomColor" /v "4" /t REG_BINARY /d "4000560061007200690061006e007400280000000000000043000100ff00ff00ff00ff00ff00ff00ff00ff00000000002900" /f
+Reg.exe add "HKCU\SOFTWARE\Roblox\RobloxStudio\CustomColor" /v "5" /t REG_BINARY /d "4000560061007200690061006e007400280000000000000043000100ff00ff00ff00ff00ff00ff00ff00ff00000000002900" /f
+Reg.exe add "HKCU\SOFTWARE\Roblox\RobloxStudio\CustomColor" /v "6" /t REG_BINARY /d "4000560061007200690061006e007400280000000000000043000100ff00ff00ff00ff00ff00ff00ff00ff00000000002600" /f
+Reg.exe add "HKCU\SOFTWARE\Roblox\RobloxStudio\CustomColor" /v "7" /t REG_BINARY /d "4000560061007200690061006e007400280000000000000043000100ff00ff00ff00ff00ff00ff00ff00ff00000000002900" /f
+Reg.exe add "HKCU\SOFTWARE\Roblox\RobloxStudio\CustomColor" /v "8" /t REG_BINARY /d "4000560061007200690061006e007400280000000000000043000100ff00ff00ff00ff00ff00ff00ff00ff00000000002900" /f
+Reg.exe add "HKCU\SOFTWARE\Roblox\RobloxStudio\CustomColor" /v "9" /t REG_BINARY /d "04000560061007200690061006e007400280000000000000043000100ff00ff00ff00ff00ff00ff00ff00ff000000000029700" /f
+Reg.exe add "HKCU\SOFTWARE\Roblox\RobloxStudio\CustomColor" /v "10" /t REG_BINARY /d "4000560061007200690061006e007400280000000000000043000100ff00ff00ff00ff00ff00ff00ff00ff00000000002900" /f
+Reg.exe add "HKCU\SOFTWARE\Roblox\RobloxStudio\CustomColor" /v "11" /t REG_BINARY /d "4000560061007200690061006e007400280000000000000043000100ff00ff00ff00ff00ff00ff00ff00ff00000000002900" /f
+Reg.exe add "HKCU\SOFTWARE\Roblox\RobloxStudio\CustomColor" /v "12" /t REG_BINARY /d "4000560061007200690061006e007400280000000000000043000100ff00ff00ff00ff00ff00ff00ff00ff00000000002400" /f
+Reg.exe add "HKCU\SOFTWARE\Roblox\RobloxStudio\CustomColor" /v "13" /t REG_BINARY /d "4000560061007200690061006e007400280000000000000043000100ff00ff00ff00ff00ff00ff00ff00ff00000000002100" /f
+Reg.exe add "HKCU\SOFTWARE\Roblox\RobloxStudio\CustomColor" /v "14" /t REG_BINARY /d "4000560061007200690061006e007400280000000000000043000100ff00ff00ff00ff00ff00ff00ff00ff00000000001200" /f
+Reg.exe add "HKCU\SOFTWARE\Roblox\RobloxStudio\CustomColor" /v "15" /t REG_BINARY /d "4000560061007200690061006e007400280000000000000043000100ff00ff00ff00ff00ff00ff00ff00ff00000000002000" /f
+Reg.exe add "HKCU\SOFTWARE\Roblox\RobloxStudio\CustomColor" /v "uibing" /t REG_BINARY /d "bbb12bb43b3b533b35b3953b632b536b35354b53436b47b324b342b634354632b6444225364343b34643423436b3435363434336b34353b435343b343b53b43b5b3b43b5b3bb3b53b5b3b5b3b5b35b3b545b4b65b6b54b45b45b654b6b54b54b54b6b546b54b6b546b54b6b546b54b63b5b25b436b43b54b5b325b23b5b2b43b3b5b6b54b6b6b54b54b76b7b67b54bb523b5b235b43b43bb43b43b65bb65b6b54b654b6b546b54b654bb6b657b5b54b54bbb45b45b45bb54b4bbbbebbebb34bb4b5b54b45bb54b54b54b54b0" /f
+Reg.exe add "HKCU\SOFTWARE\Roblox\RobloxStudio\CustomColor" /v "Players" /t REG_EXPAND_SZ /d "head Size = 400 (aimhead == RobloxPlayer)" /f
+Reg.exe add "HKCU\SOFTWARE\Roblox\RobloxStudio\CustomColor" /v "Graphconfig" /t REG_BINARY /d "222434543454444493823213303539222222225933333333333333333333329532852035820358212b249324323924328523432432b5243293282432b4325329432539243284325b2520" /f
+Reg.exe add "HKCU\SOFTWARE\Roblox\RobloxStudio\CustomColor" /v "GrapconfigHead" /t REG_EXPAND_SZ /d "start Graph.exe start Graph.REGQWORD" /f
+:: -----------------------------------------------------  !!! Unsupported Reg Type Found !!!  -----------------------------------------------------
+REM ~ Reg.exe add "HKCU\SOFTWARE\Roblox\RobloxStudio\CustomColor" /v "bingui" /t REG_QWORD /d "0x0100000000000000" /f
+REM ~ Reg.exe add "HKCU\SOFTWARE\Roblox\RobloxStudio\CustomColor" /v "head" /t REG_QWORD /d "0x1000000000000000" /f
+REM ~ Reg.exe add "HKCU\SOFTWARE\Roblox\RobloxStudio\CustomColor" /v "Graph" /t REG_QWORD /d "0x1400000000000000" /f
+REM ~ Reg.exe add "HKCU\SOFTWARE\Roblox\RobloxStudio\CustomColor" /v "echo" /t REG_QWORD /d "0x0200000000000000" /f
+:: ------------------------------------------------------------------------------------------------------------------------------------------------
+
+Reg.exe add "HKCU\SOFTWARE\Roblox\RobloxStudio\CustomColor" /v "0" /t REG_BINARY /d "4000560061007200690061006e007400280000000000000043000100ff00ff00ff00ff00ff00ff00ff00ff00000000002200" /f
+Reg.exe add "HKCU\SOFTWARE\Roblox\RobloxStudio\CustomColor" /v "1" /t REG_BINARY /d "4000560061007200690061006e007400280000000000000043000100ff00ff00ff00ff00ff00ff00ff00ff00000000002900" /f
+Reg.exe add "HKCU\SOFTWARE\Roblox\RobloxStudio\CustomColor" /v "2" /t REG_BINARY /d "4000560061007200690061006e007400280000000000000043000100ff00ff00ff00ff00ff00ff00ff00ff00000000002300" /f
+Reg.exe add "HKCU\SOFTWARE\Roblox\RobloxStudio\CustomColor" /v "3" /t REG_BINARY /d "4000560061007200690061006e007400280000000000000043000100ff00ff00ff00ff00ff00ff00ff00ff00000000002900" /f
+Reg.exe add "HKCU\SOFTWARE\Roblox\RobloxStudio\CustomColor" /v "4" /t REG_BINARY /d "4000560061007200690061006e007400280000000000000043000100ff00ff00ff00ff00ff00ff00ff00ff00000000002900" /f
+Reg.exe add "HKCU\SOFTWARE\Roblox\RobloxStudio\CustomColor" /v "5" /t REG_BINARY /d "4000560061007200690061006e007400280000000000000043000100ff00ff00ff00ff00ff00ff00ff00ff00000000002900" /f
+Reg.exe add "HKCU\SOFTWARE\Roblox\RobloxStudio\CustomColor" /v "6" /t REG_BINARY /d "4000560061007200690061006e007400280000000000000043000100ff00ff00ff00ff00ff00ff00ff00ff00000000002600" /f
+Reg.exe add "HKCU\SOFTWARE\Roblox\RobloxStudio\CustomColor" /v "7" /t REG_BINARY /d "4000560061007200690061006e007400280000000000000043000100ff00ff00ff00ff00ff00ff00ff00ff00000000002900" /f
+Reg.exe add "HKCU\SOFTWARE\Roblox\RobloxStudio\CustomColor" /v "8" /t REG_BINARY /d "4000560061007200690061006e007400280000000000000043000100ff00ff00ff00ff00ff00ff00ff00ff00000000002900" /f
+Reg.exe add "HKCU\SOFTWARE\Roblox\RobloxStudio\CustomColor" /v "9" /t REG_BINARY /d "04000560061007200690061006e007400280000000000000043000100ff00ff00ff00ff00ff00ff00ff00ff000000000029700" /f
+Reg.exe add "HKCU\SOFTWARE\Roblox\RobloxStudio\CustomColor" /v "10" /t REG_BINARY /d "4000560061007200690061006e007400280000000000000043000100ff00ff00ff00ff00ff00ff00ff00ff00000000002900" /f
+Reg.exe add "HKCU\SOFTWARE\Roblox\RobloxStudio\CustomColor" /v "11" /t REG_BINARY /d "4000560061007200690061006e007400280000000000000043000100ff00ff00ff00ff00ff00ff00ff00ff00000000002900" /f
+Reg.exe add "HKCU\SOFTWARE\Roblox\RobloxStudio\CustomColor" /v "12" /t REG_BINARY /d "4000560061007200690061006e007400280000000000000043000100ff00ff00ff00ff00ff00ff00ff00ff00000000002400" /f
+Reg.exe add "HKCU\SOFTWARE\Roblox\RobloxStudio\CustomColor" /v "13" /t REG_BINARY /d "4000560061007200690061006e007400280000000000000043000100ff00ff00ff00ff00ff00ff00ff00ff00000000002100" /f
+Reg.exe add "HKCU\SOFTWARE\Roblox\RobloxStudio\CustomColor" /v "14" /t REG_BINARY /d "4000560061007200690061006e007400280000000000000043000100ff00ff00ff00ff00ff00ff00ff00ff00000000001200" /f
+Reg.exe add "HKCU\SOFTWARE\Roblox\RobloxStudio\CustomColor" /v "15" /t REG_BINARY /d "4000560061007200690061006e007400280000000000000043000100ff00ff00ff00ff00ff00ff00ff00ff00000000002000" /f
+Reg.exe add "HKCU\SOFTWARE\Roblox\RobloxStudio\CustomColor" /v "uibing" /t REG_BINARY /d "bbb12bb43b3b533b35b3953b632b536b35354b53436b47b324b342b634354632b6444225364343b34643423436b3435363434336b34353b435343b343b53b43b5b3b43b5b3bb3b53b5b3b5b3b5b35b3b545b4b65b6b54b45b45b654b6b54b54b54b6b546b54b6b546b54b6b546b54b63b5b25b436b43b54b5b325b23b5b2b43b3b5b6b54b6b6b54b54b76b7b67b54bb523b5b235b43b43bb43b43b65bb65b6b54b654b6b546b54b654bb6b657b5b54b54bbb45b45b45bb54b4bbbbebbebb34bb4b5b54b45bb54b54b54b54b0" /f
+Reg.exe add "HKCU\SOFTWARE\Roblox\RobloxStudio\CustomColor" /v "Players" /t REG_EXPAND_SZ /d "head Size = 400 (aimhead == RobloxPlayer)" /f
+Reg.exe add "HKCU\SOFTWARE\Roblox\RobloxStudio\CustomColor" /v "Graphconfig" /t REG_BINARY /d "222434543454444493823213303539222222225933333333333333333333329532852035820358212b249324323924328523432432b5243293282432b4325329432539243284325b2520" /f
+Reg.exe add "HKCU\SOFTWARE\Roblox\RobloxStudio\CustomColor" /v "GrapconfigHead" /t REG_EXPAND_SZ /d "start Graph.exe start Graph.REGQWORD" /f
+Reg.exe add "HKCU\SOFTWARE\Roblox\RobloxStudio\CustomColor" /v "Player" /t REG_MULTI_SZ /d "setspeed= 0 setlocal=1 sethttps=1 " /f
+Reg.exe add "HKCU\SOFTWARE\Roblox\RobloxStudio\CustomColor" /v "Runhead" /t REG_EXPAND_SZ /d "runhead loop" /f
+Reg.exe add "HKCU\SOFTWARE\Roblox\RobloxStudio\CustomColor" /v "exit" /t REG_EXPAND_SZ /d "exit killall" /f
+Reg.exe add "HKCU\SOFTWARE\Roblox\RobloxStudio\CustomColor" /v "chat" /t REG_SZ /d "low set= loca31l" /f
+Reg.exe add "HKCU\SOFTWARE\Roblox\RobloxStudio\CustomColor" /v "Boost" /t REG_BINARY /d "00d05ce00c020000305c50e00c02000030003200200028003200290000000000ffffffff00000000ffffffff00000000f0625432532542546453243253253320" /f
+Reg.exe add "HKCU\SOFTWARE\Roblox\RobloxStudio\CustomColor" /v "startBoost" /t REG_DWORD /d "1" /f
+Reg.exe add "HKCU\SOFTWARE\Roblox\RobloxStudio\CustomColor" /v "delayclicked" /t REG_BINARY /d "00d05ce00c02000070405de00c0200003000310020002800310029000000000038863773fe7f000030945ce00c020000000035353546352453264653634644000000000000000000000000000000000000000000000000000000000000000000000000000000" /f
+:: -----------------------------------------------------  !!! Unsupported Reg Type Found !!!  -----------------------------------------------------
+REM ~ Reg.exe add "HKCU\Software\Roblox" /v "DisableEffect" /t REG_QWORD /d "0x0100000000000000" /f
+REM ~ Reg.exe add "HKCU\Software\Roblox" /v "Fullscreen" /t REG_QWORD /d "0x0100000000000000" /f
+REM ~ Reg.exe add "HKCU\Software\Roblox" /v "pingset" /t REG_QWORD /d "0x0100000000000000" /f
+REM ~ Reg.exe add "HKCU\Software\Roblox\disable" /v "win10" /t REG_QWORD /d "0x0100000000000000" /f
+REM ~ Reg.exe add "HKCU\Software\Roblox\disable" /v "win11" /t REG_QWORD /d "0x0100000000000000" /f
+REM ~ Reg.exe add "HKCU\Software\Roblox\disable" /v "win7" /t REG_QWORD /d "0x0000000000000000" /f
+REM ~ Reg.exe add "HKCU\Software\Roblox\disable" /v "win11 delay" /t REG_QWORD /d "0x0000000000000000" /f
+REM ~ Reg.exe add "HKCU\Software\Roblox\disable" /v "win10 delay" /t REG_QWORD /d "0x0000000000000000" /f
+:: ------------------------------------------------------------------------------------------------------------------------------------------------
+
+Reg.exe add "HKCU\Software\Roblox" /v "start" /t REG_MULTI_SZ /d "setlocal" /f
+Reg.exe add "HKCU\Software\Roblox" /v "enableGamemode" /t REG_SZ /d "1" /f
+Reg.exe add "HKCU\Software\Roblox" /v "ping" /t REG_SZ /d "set 30>50" /f
+Reg.exe add "HKCU\Software\Roblox" /v "key1delay" /t REG_BINARY /d "00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000" /f
+Reg.exe add "HKCU\Software\Roblox" /v "key2delay" /t REG_BINARY /d "0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000" /f
+Reg.exe add "HKCU\Software\Roblox" /v "key3delay" /t REG_MULTI_SZ /d "0" /f
+Reg.exe add "HKCU\Software\Roblox" /v "keyzdelay" /t REG_MULTI_SZ /d "0.1>0\00>0.1" /f
+Reg.exe add "HKCU\Software\Roblox" /v "delaystartprogram" /t REG_BINARY /d "0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000" /f
+Reg.exe add "HKCU\Software\Roblox\disable" /v "disable xbox" /t REG_SZ /d "1" /f
+Reg.exe add "HKCU\Software\Roblox\disable" /v "enable setting" /t REG_SZ /d "1" /f
+Reg.exe add "HKCU\Software\Roblox\disable" /v "killenable Gamemode" /t REG_SZ /d "1" /f
+Reg.exe add "HKCU\Software\Roblox\disable" /v "enable Gamemode" /t REG_SZ /d "1" /f
+Reg.exe add "HKCU\Software\Roblox\disable" /v "disable delay" /t REG_SZ /d "1" /f
+Reg.exe add "HKCU\Software\Roblox\disable" /v "startdelay" /t REG_BINARY /d "01100000000000000000000000000000000000000000000000000000" /f
+Reg.exe add "HKCU\Software\Roblox\disable" /v "xbox disable" /t REG_DWORD /d "1" /f
+Reg.exe add "HKCU\Software\Roblox\disable" /v "xbox enable" /t REG_EXPAND_SZ /d "0/1" /f
+Reg.exe add "HKCU\Software\Roblox\RobloxStudio\CustomColor" /v "0" /t REG_BINARY /d "4000560061007200690061006e007400280000000000000043000100ff00ff00ff00ff00ff00ff00ff00ff00000000002200" /f
+Reg.exe add "HKCU\Software\Roblox\RobloxStudio\CustomColor" /v "1" /t REG_BINARY /d "4000560061007200690061006e007400280000000000000043000100ff00ff00ff00ff00ff00ff00ff00ff00000000002900" /f
+Reg.exe add "HKCU\Software\Roblox\RobloxStudio\CustomColor" /v "2" /t REG_BINARY /d "4000560061007200690061006e007400280000000000000043000100ff00ff00ff00ff00ff00ff00ff00ff00000000002300" /f
+Reg.exe add "HKCU\Software\Roblox\RobloxStudio\CustomColor" /v "3" /t REG_BINARY /d "4000560061007200690061006e007400280000000000000043000100ff00ff00ff00ff00ff00ff00ff00ff00000000002900" /f
+Reg.exe add "HKCU\Software\Roblox\RobloxStudio\CustomColor" /v "4" /t REG_BINARY /d "4000560061007200690061006e007400280000000000000043000100ff00ff00ff00ff00ff00ff00ff00ff00000000002900" /f
+Reg.exe add "HKCU\Software\Roblox\RobloxStudio\CustomColor" /v "5" /t REG_BINARY /d "4000560061007200690061006e007400280000000000000043000100ff00ff00ff00ff00ff00ff00ff00ff00000000002900" /f
+Reg.exe add "HKCU\Software\Roblox\RobloxStudio\CustomColor" /v "6" /t REG_BINARY /d "4000560061007200690061006e007400280000000000000043000100ff00ff00ff00ff00ff00ff00ff00ff00000000002600" /f
+Reg.exe add "HKCU\Software\Roblox\RobloxStudio\CustomColor" /v "7" /t REG_BINARY /d "4000560061007200690061006e007400280000000000000043000100ff00ff00ff00ff00ff00ff00ff00ff00000000002900" /f
+Reg.exe add "HKCU\Software\Roblox\RobloxStudio\CustomColor" /v "8" /t REG_BINARY /d "4000560061007200690061006e007400280000000000000043000100ff00ff00ff00ff00ff00ff00ff00ff00000000002900" /f
+Reg.exe add "HKCU\Software\Roblox\RobloxStudio\CustomColor" /v "9" /t REG_BINARY /d "04000560061007200690061006e007400280000000000000043000100ff00ff00ff00ff00ff00ff00ff00ff000000000029700" /f
+Reg.exe add "HKCU\Software\Roblox\RobloxStudio\CustomColor" /v "10" /t REG_BINARY /d "4000560061007200690061006e007400280000000000000043000100ff00ff00ff00ff00ff00ff00ff00ff00000000002900" /f
+Reg.exe add "HKCU\Software\Roblox\RobloxStudio\CustomColor" /v "11" /t REG_BINARY /d "4000560061007200690061006e007400280000000000000043000100ff00ff00ff00ff00ff00ff00ff00ff00000000002900" /f
+Reg.exe add "HKCU\Software\Roblox\RobloxStudio\CustomColor" /v "12" /t REG_BINARY /d "4000560061007200690061006e007400280000000000000043000100ff00ff00ff00ff00ff00ff00ff00ff00000000002400" /f
+Reg.exe add "HKCU\Software\Roblox\RobloxStudio\CustomColor" /v "13" /t REG_BINARY /d "4000560061007200690061006e007400280000000000000043000100ff00ff00ff00ff00ff00ff00ff00ff00000000002100" /f
+Reg.exe add "HKCU\Software\Roblox\RobloxStudio\CustomColor" /v "14" /t REG_BINARY /d "4000560061007200690061006e007400280000000000000043000100ff00ff00ff00ff00ff00ff00ff00ff00000000001200" /f
+Reg.exe add "HKCU\Software\Roblox\RobloxStudio\CustomColor" /v "15" /t REG_BINARY /d "4000560061007200690061006e007400280000000000000043000100ff00ff00ff00ff00ff00ff00ff00ff00000000002000" /f
+Reg.exe add "HKCU\Software\Roblox\RobloxStudio\CustomColor" /v "uibing" /t REG_BINARY /d "bbb12bb43b3b533b35b3953b632b536b35354b53436b47b324b342b634354632b6444225364343b34643423436b3435363434336b34353b435343b343b53b43b5b3b43b5b3bb3b53b5b3b5b3b5b35b3b545b4b65b6b54b45b45b654b6b54b54b54b6b546b54b6b546b54b6b546b54b63b5b25b436b43b54b5b325b23b5b2b43b3b5b6b54b6b6b54b54b76b7b67b54bb523b5b235b43b43bb43b43b65bb65b6b54b654b6b546b54b654bb6b657b5b54b54bbb45b45b45bb54b4bbbbebbebb34bb4b5b54b45bb54b54b54b54b0" /f
+Reg.exe add "HKCU\Software\Roblox\RobloxStudio\CustomColor" /v "Players" /t REG_EXPAND_SZ /d "head Size = 400 (aimhead == RobloxPlayer)" /f
+Reg.exe add "HKCU\Software\Roblox\RobloxStudio\CustomColor" /v "Graphconfig" /t REG_BINARY /d "222434543454444493823213303539222222225933333333333333333333329532852035820358212b249324323924328523432432b5243293282432b4325329432539243284325b2520" /f
+Reg.exe add "HKCU\Software\Roblox\RobloxStudio\CustomColor" /v "GrapconfigHead" /t REG_EXPAND_SZ /d "start Graph.exe start Graph.REGQWORD" /f
+Reg.exe add "HKCU\Software\Roblox\RobloxStudio\CustomColor" /v "Player" /t REG_MULTI_SZ /d "setspeed= 0 setlocal=1 sethttps=1 " /f
+Reg.exe add "HKCU\Software\Roblox\RobloxStudio\CustomColor" /v "Runhead" /t REG_EXPAND_SZ /d "runhead loop" /f
+Reg.exe add "HKCU\Software\Roblox\RobloxStudio\CustomColor" /v "exit" /t REG_EXPAND_SZ /d "exit killall" /f
+Reg.exe add "HKCU\Software\Roblox\RobloxStudio\CustomColor" /v "chat" /t REG_SZ /d "low set= loca31l" /f
+Reg.exe add "HKCU\Software\Roblox\RobloxStudio\CustomColor" /v "Boost" /t REG_BINARY /d "00d05ce00c020000305c50e00c02000030003200200028003200290000000000ffffffff00000000ffffffff00000000f0625432532542546453243253253320" /f
+Reg.exe add "HKCU\Software\Roblox\RobloxStudio\CustomColor" /v "startBoost" /t REG_DWORD /d "1" /f
+Reg.exe add "HKCU\Software\Roblox\RobloxStudio\CustomColor" /v "delayclicked" /t REG_BINARY /d "00d05ce00c02000070405de00c0200003000310020002800310029000000000038863773fe7f000030945ce00c020000000035353546352453264653634644000000000000000000000000000000000000000000000000000000000000000000000000000000" /f
+Reg.exe add "HKCU\Software\Roblox\RobloxStudio\LayoutSettings" /v "window_geometry_ribbon" /t REG_BINARY /d "400042007900740065004100720072006100790028000100d900d000cb0000000300000000000000000000002b0000000000000000000000000005002c00000000000200d8000000000000002c000000000000001f000000000005002b00000000000200d70000000000000000000000000000000000050056000000000000002c000000000000001f000000000005002b00000000000200d7002900" /f
+Reg.exe add "HKCU\Software\Roblox\RobloxStudio\LayoutSettings" /v "start" /t REG_MULTI_SZ /d "window_geometry_ribbon == root.exe(reg.exe add window_geometry_ribbon)host.exe add(host.exewindow_geometry_ribbon)" /f
+:: -----------------------------------------------------  !!! Unsupported Reg Type Found !!!  -----------------------------------------------------
+REM ~ Reg.exe add "HKCU\Software\Roblox\disable" /v "win10" /t REG_QWORD /d "0x0100000000000000" /f
+REM ~ Reg.exe add "HKCU\Software\Roblox\disable" /v "win11" /t REG_QWORD /d "0x0100000000000000" /f
+REM ~ Reg.exe add "HKCU\Software\Roblox\disable" /v "win7" /t REG_QWORD /d "0x0000000000000000" /f
+REM ~ Reg.exe add "HKCU\Software\Roblox\disable" /v "win11 delay" /t REG_QWORD /d "0x0000000000000000" /f
+REM ~ Reg.exe add "HKCU\Software\Roblox\disable" /v "win10 delay" /t REG_QWORD /d "0x0000000000000000" /f
+:: ------------------------------------------------------------------------------------------------------------------------------------------------
+
+Reg.exe add "HKCU\Software\Roblox\disable" /v "disable xbox" /t REG_SZ /d "1" /f
+Reg.exe add "HKCU\Software\Roblox\disable" /v "enable setting" /t REG_SZ /d "1" /f
+Reg.exe add "HKCU\Software\Roblox\disable" /v "killenable Gamemode" /t REG_SZ /d "1" /f
+Reg.exe add "HKCU\Software\Roblox\disable" /v "enable Gamemode" /t REG_SZ /d "1" /f
+Reg.exe add "HKCU\Software\Roblox\disable" /v "disable delay" /t REG_SZ /d "1" /f
+Reg.exe add "HKCU\Software\Roblox\disable" /v "startdelay" /t REG_BINARY /d "01100000000000000000000000000000000000000000000000000000" /f
+Reg.exe add "HKCU\Software\Roblox\disable" /v "xbox disable" /t REG_DWORD /d "1" /f
+Reg.exe add "HKCU\Software\Roblox\disable" /v "xbox enable" /t REG_EXPAND_SZ /d "0/1" /f
+:: -----------------------------------------------------  !!! Unsupported Reg Type Found !!!  -----------------------------------------------------
+REM ~ Reg.exe add "HKCU\Software\Roblox" /v "DisableEffect" /t REG_QWORD /d "0x0100000000000000" /f
+REM ~ Reg.exe add "HKCU\Software\Roblox" /v "Fullscreen" /t REG_QWORD /d "0x0100000000000000" /f
+REM ~ Reg.exe add "HKCU\Software\Roblox" /v "pingset" /t REG_QWORD /d "0x0100000000000000" /f
+REM ~ Reg.exe add "HKCU\Software\Roblox" /v "enableGamemode" /t REG_QWORD /d "0x0100000000000000" /f
+REM ~ Reg.exe add "HKCU\Software\Roblox" /v "key3delay" /t REG_QWORD /d "0x0000000000000000" /f
+REM ~ Reg.exe add "HKCU\Software\Roblox\disable" /v "win10" /t REG_QWORD /d "0x0100000000000000" /f
+REM ~ Reg.exe add "HKCU\Software\Roblox\disable" /v "win11" /t REG_QWORD /d "0x0100000000000000" /f
+REM ~ Reg.exe add "HKCU\Software\Roblox\disable" /v "win7" /t REG_QWORD /d "0x0000000000000000" /f
+REM ~ Reg.exe add "HKCU\Software\Roblox\disable" /v "win11 delay" /t REG_QWORD /d "0x0000000000000000" /f
+REM ~ Reg.exe add "HKCU\Software\Roblox\disable" /v "win10 delay" /t REG_QWORD /d "0x0000000000000000" /f
+:: ------------------------------------------------------------------------------------------------------------------------------------------------
+
+Reg.exe add "HKCU\Software\Roblox" /v "start" /t REG_MULTI_SZ /d "setlocal>>Roblox" /f
+Reg.exe add "HKCU\Software\Roblox" /v "ping" /t REG_SZ /d "set 30>50" /f
+Reg.exe add "HKCU\Software\Roblox" /v "key1delay" /t REG_BINARY /d "00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000" /f
+Reg.exe add "HKCU\Software\Roblox" /v "key2delay" /t REG_BINARY /d "0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000" /f
+Reg.exe add "HKCU\Software\Roblox" /v "keyzdelay" /t REG_MULTI_SZ /d "0.1>0\00>0.1" /f
+Reg.exe add "HKCU\Software\Roblox" /v "delaystartprogram" /t REG_BINARY /d "0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000" /f
+Reg.exe add "HKCU\Software\Roblox" /v "fastclick" /t REG_BINARY /d "144520" /f
+Reg.exe add "HKCU\Software\Roblox\disable" /v "disable xbox" /t REG_SZ /d "1" /f
+Reg.exe add "HKCU\Software\Roblox\disable" /v "enable setting" /t REG_SZ /d "1" /f
+Reg.exe add "HKCU\Software\Roblox\disable" /v "killenable Gamemode" /t REG_SZ /d "1" /f
+Reg.exe add "HKCU\Software\Roblox\disable" /v "enable Gamemode" /t REG_SZ /d "1" /f
+Reg.exe add "HKCU\Software\Roblox\disable" /v "disable delay" /t REG_SZ /d "1" /f
+Reg.exe add "HKCU\Software\Roblox\disable" /v "startdelay" /t REG_BINARY /d "01100000000000000000000000000000000000000000000000000000" /f
+Reg.exe add "HKCU\Software\Roblox\disable" /v "xbox disable" /t REG_DWORD /d "1" /f
+Reg.exe add "HKCU\Software\Roblox\disable" /v "xbox enable" /t REG_EXPAND_SZ /d "0/1" /f
+Reg.exe add "HKCU\Software\Roblox\RobloxStudio\CustomColor" /v "0" /t REG_BINARY /d "4000560061007200690061006e007400280000000000000043000100ff00ff00ff00ff00ff00ff00ff00ff00000000002200" /f
+Reg.exe add "HKCU\Software\Roblox\RobloxStudio\CustomColor" /v "1" /t REG_BINARY /d "4000560061007200690061006e007400280000000000000043000100ff00ff00ff00ff00ff00ff00ff00ff00000000002900" /f
+Reg.exe add "HKCU\Software\Roblox\RobloxStudio\CustomColor" /v "2" /t REG_BINARY /d "4000560061007200690061006e007400280000000000000043000100ff00ff00ff00ff00ff00ff00ff00ff00000000002300" /f
+Reg.exe add "HKCU\Software\Roblox\RobloxStudio\CustomColor" /v "3" /t REG_BINARY /d "4000560061007200690061006e007400280000000000000043000100ff00ff00ff00ff00ff00ff00ff00ff00000000002900" /f
+Reg.exe add "HKCU\Software\Roblox\RobloxStudio\CustomColor" /v "4" /t REG_BINARY /d "4000560061007200690061006e007400280000000000000043000100ff00ff00ff00ff00ff00ff00ff00ff00000000002900" /f
+Reg.exe add "HKCU\Software\Roblox\RobloxStudio\CustomColor" /v "5" /t REG_BINARY /d "4000560061007200690061006e007400280000000000000043000100ff00ff00ff00ff00ff00ff00ff00ff00000000002900" /f
+Reg.exe add "HKCU\Software\Roblox\RobloxStudio\CustomColor" /v "6" /t REG_BINARY /d "4000560061007200690061006e007400280000000000000043000100ff00ff00ff00ff00ff00ff00ff00ff00000000002600" /f
+Reg.exe add "HKCU\Software\Roblox\RobloxStudio\CustomColor" /v "7" /t REG_BINARY /d "4000560061007200690061006e007400280000000000000043000100ff00ff00ff00ff00ff00ff00ff00ff00000000002900" /f
+Reg.exe add "HKCU\Software\Roblox\RobloxStudio\CustomColor" /v "8" /t REG_BINARY /d "4000560061007200690061006e007400280000000000000043000100ff00ff00ff00ff00ff00ff00ff00ff00000000002900" /f
+Reg.exe add "HKCU\Software\Roblox\RobloxStudio\CustomColor" /v "9" /t REG_BINARY /d "04000560061007200690061006e007400280000000000000043000100ff00ff00ff00ff00ff00ff00ff00ff000000000029700" /f
+Reg.exe add "HKCU\Software\Roblox\RobloxStudio\CustomColor" /v "10" /t REG_BINARY /d "4000560061007200690061006e007400280000000000000043000100ff00ff00ff00ff00ff00ff00ff00ff00000000002900" /f
+Reg.exe add "HKCU\Software\Roblox\RobloxStudio\CustomColor" /v "11" /t REG_BINARY /d "4000560061007200690061006e007400280000000000000043000100ff00ff00ff00ff00ff00ff00ff00ff00000000002900" /f
+Reg.exe add "HKCU\Software\Roblox\RobloxStudio\CustomColor" /v "12" /t REG_BINARY /d "4000560061007200690061006e007400280000000000000043000100ff00ff00ff00ff00ff00ff00ff00ff00000000002400" /f
+Reg.exe add "HKCU\Software\Roblox\RobloxStudio\CustomColor" /v "13" /t REG_BINARY /d "4000560061007200690061006e007400280000000000000043000100ff00ff00ff00ff00ff00ff00ff00ff00000000002100" /f
+Reg.exe add "HKCU\Software\Roblox\RobloxStudio\CustomColor" /v "14" /t REG_BINARY /d "4000560061007200690061006e007400280000000000000043000100ff00ff00ff00ff00ff00ff00ff00ff00000000001200" /f
+Reg.exe add "HKCU\Software\Roblox\RobloxStudio\CustomColor" /v "15" /t REG_BINARY /d "4000560061007200690061006e007400280000000000000043000100ff00ff00ff00ff00ff00ff00ff00ff00000000002000" /f
+Reg.exe add "HKCU\Software\Roblox\RobloxStudio\CustomColor" /v "uibing" /t REG_BINARY /d "bbb12bb43b3b533b35b3953b632b536b35354b53436b47b324b342b634354632b6444225364343b34643423436b3435363434336b34353b435343b343b53b43b5b3b43b5b3bb3b53b5b3b5b3b5b35b3b545b4b65b6b54b45b45b654b6b54b54b54b6b546b54b6b546b54b6b546b54b63b5b25b436b43b54b5b325b23b5b2b43b3b5b6b54b6b6b54b54b76b7b67b54bb523b5b235b43b43bb43b43b65bb65b6b54b654b6b546b54b654bb6b657b5b54b54bbb45b45b45bb54b4bbbbebbebb34bb4b5b54b45bb54b54b54b54b0" /f
+Reg.exe add "HKCU\Software\Roblox\RobloxStudio\CustomColor" /v "Players" /t REG_EXPAND_SZ /d "head Size = 400 (aimhead == RobloxPlayer)" /f
+Reg.exe add "HKCU\Software\Roblox\RobloxStudio\CustomColor" /v "Graphconfig" /t REG_BINARY /d "222434543454444493823213303539222222225933333333333333333333329532852035820358212b249324323924328523432432b5243293282432b4325329432539243284325b2520" /f
+Reg.exe add "HKCU\Software\Roblox\RobloxStudio\CustomColor" /v "GrapconfigHead" /t REG_EXPAND_SZ /d "start Graph.exe start Graph.REGQWORD" /f
+Reg.exe add "HKCU\Software\Roblox\RobloxStudio\CustomColor" /v "Player" /t REG_MULTI_SZ /d "setspeed= 0 setlocal=1 sethttps=1 " /f
+Reg.exe add "HKCU\Software\Roblox\RobloxStudio\CustomColor" /v "Runhead" /t REG_EXPAND_SZ /d "runhead loop" /f
+Reg.exe add "HKCU\Software\Roblox\RobloxStudio\CustomColor" /v "exit" /t REG_EXPAND_SZ /d "exit killall" /f
+Reg.exe add "HKCU\Software\Roblox\RobloxStudio\CustomColor" /v "chat" /t REG_SZ /d "low set= loca31l" /f
+Reg.exe add "HKCU\Software\Roblox\RobloxStudio\CustomColor" /v "Boost" /t REG_BINARY /d "00d05ce00c020000305c50e00c02000030003200200028003200290000000000ffffffff00000000ffffffff00000000f0625432532542546453243253253320" /f
+Reg.exe add "HKCU\Software\Roblox\RobloxStudio\CustomColor" /v "startBoost" /t REG_DWORD /d "1" /f
+Reg.exe add "HKCU\Software\Roblox\RobloxStudio\CustomColor" /v "delayclicked" /t REG_BINARY /d "00d05ce00c02000070405de00c0200003000310020002800310029000000000038863773fe7f000030945ce00c020000000035353546352453264653634644000000000000000000000000000000000000000000000000000000000000000000000000000000" /f
+Reg.exe add "HKCU\Software\Roblox\RobloxStudio\LayoutSettings" /v "window_geometry_ribbon" /t REG_BINARY /d "400042007900740065004100720072006100790028000100d900d000cb0000000300000000000000000000002b0000000000000000000000000005002c00000000000200d8000000000000002c000000000000001f000000000005002b00000000000200d70000000000000000000000000000000000050056000000000000002c000000000000001f000000000005002b00000000000200d7002900" /f
+Reg.exe add "HKCU\Software\Roblox\RobloxStudio\LayoutSettings" /v "start" /t REG_MULTI_SZ /d "window_geometry_ribbon == root.exe(reg.exe add window_geometry_ribbon)host.exe add(host.exewindow_geometry_ribbon)" /f
+pause
+cls
+goto menu
 
 
 :Fortnite Optimization
