@@ -1090,15 +1090,13 @@ goto menu
 
 
 :Create System Restore Points
-cls
-powershell -ExecutionPolicy Unrestricted -NoProfile Enable-ComputerRestore -Drive 'C:\'>nul 2>&1
-Reg.exe delete "HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\WindowsNT\CurrentVersion\SystemRestore" /v "RPSessionInterval" /f 
+echo [-] Restore Point
+echo.
+Reg.exe delete "HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\WindowsNT\CurrentVersion\SystemRestore" /v "RPSessionInterval" /f
 Reg.exe delete "HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\WindowsNT\CurrentVersion\SystemRestore" /v "DisableConfig" /f
-Reg.exe add "HKLM\Software\Microsoft\Windows NT\CurrentVersion\SystemRestore" /v "SystemRestorePointCreationFrequency" /t REG_DWORD /d 0 /f 
-cls
-chcp 437 >nul 
-powershell -ExecutionPolicy Bypass -Command "Checkpoint-Computer -Description 'Awebus Restore Point' -RestorePointType 'MODIFY_SETTINGS'" 
-chcp 65001 >nul
+Reg.exe  add "HKLM\Software\Microsoft\Windows NT\CurrentVersion\SystemRestore" /v "SystemRestorePointCreationFrequency" /t REG_DWORD /d 0 /f 
+powershell -ExecutionPolicy Unrestricted -NoProfile Enable-ComputerRestore -Drive 'C:\', 'D:\', 'E:\', 'F:\', 'G:\' 
+powershell -ExecutionPolicy Unrestricted -NoProfile Checkpoint-Computer -Description Restore Point' 
 pause
 cls
 goto menu
